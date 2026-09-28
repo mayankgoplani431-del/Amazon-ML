@@ -1,0 +1,57 @@
+stage0: pruned candidates for train already exist, skipping
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 209s pairs=44130750
+  features part_0000.parquet rows=1999421 250s
+  features part_0001.parquet rows=1999423 288s
+  features part_0002.parquet rows=1999306 324s
+  features part_0003.parquet rows=1999422 383s
+  features part_0004.parquet rows=1999394 444s
+  features part_0005.parquet rows=1999531 488s
+  features part_0006.parquet rows=1999363 536s
+  features part_0007.parquet rows=1999445 574s
+  features part_0008.parquet rows=1663313 604s
+  features part_0009.parquet rows=1999964 635s
+  features part_0010.parquet rows=1999963 662s
+  features part_0011.parquet rows=1999988 694s
+  features part_0012.parquet rows=1999937 725s
+  features part_0013.parquet rows=1999941 756s
+  features part_0014.parquet rows=1999957 783s
+  features part_0015.parquet rows=1999961 810s
+  features part_0016.parquet rows=1999962 837s
+  features part_0017.parquet rows=1999990 864s
+  features part_0018.parquet rows=1999960 895s
+  features part_0019.parquet rows=1999950 922s
+  features part_0020.parquet rows=1999934 949s
+  features part_0021.parquet rows=1999987 974s
+  features part_0022.parquet rows=472638 982s
+  stage1 fold 0: 6623512 rows, 396s
+  stage1 fold 1: 6628017 rows, 779s
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E03a_features_sta│
+├────────────────────────────────────────┤
+│ Blocking recall                97.51 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.60 % │
+│ Pair recall                    95.01 % │
+│ Macro F0.5                      0.9801 │
+│ Singleton accuracy             97.72 % │
+│ False positives                  28784 │
+│ False negatives                 381072 │
+└────────────────────────────────────────┘
+  stage2 fold 0: 6623512 rows, 528s
+  stage2 fold 1: 6628017 rows, 883s
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E03a_features_sta│
+├────────────────────────────────────────┤
+│ Blocking recall                97.51 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.60 % │
+│ Pair recall                    95.19 % │
+│ Macro F0.5                      0.9806 │
+│ Singleton accuracy             97.92 % │
+│ False positives                  28891 │
+│ False negatives                 367603 │
+└────────────────────────────────────────┘
+total 4305s

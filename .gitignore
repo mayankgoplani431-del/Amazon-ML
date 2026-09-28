@@ -1,0 +1,11 @@
+# never commit competition data, caches, models or submissions
+data/
+work/
+output*/
+*.tsv
+*.parquet
+*.pkl
+*.zip
+__pycache__/
+*.pyc
+.DS_Store

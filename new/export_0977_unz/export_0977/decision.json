@@ -1,0 +1,28 @@
+{
+ "score_column": "score (= stage2_score, stage-2 LightGBM probability)",
+ "candidates": "only cut_rank <= 8 (all exported test pairs; candidate_pairs.tsv = these 8 per S1)",
+ "per_country": {
+  "India": {
+   "rule": "expected_f",
+   "miss_rate": 0.0,
+   "threshold_if_threshold_rule": 0.7750000000000004,
+   "half_B_f05": 0.9835842873494719
+  },
+  "US": {
+   "rule": "expected_f",
+   "miss_rate": 0.2,
+   "threshold_if_threshold_rule": 0.7250000000000003,
+   "half_B_f05": 0.9848442909930056
+  }
+ },
+ "France": {
+  "rule": "expected_f",
+  "miss_rate": 0.0,
+  "note": "no French labels: the labelled country setting with the higher threshold (India's) is used for France and any other unlabelled country"
+ },
+ "expected_f_rule": "per S1: sort its candidates by score desc; for n = 1..8, TP(n) = sum of top-n scores, T = (sum of all its scores) * (1 + miss_rate), EF(n) = 1.25*TP(n) / (0.25*T + n); P_none = prod(1 - score). If max_n EF(n) > P_none accept the top n_best (smallest n reaching the max), else predict nothing (empty row).",
+ "threshold_rule": "accept candidates with cut_rank <= 8 and score >= threshold (not used by this submission: every country picked expected_f)",
+ "one_owner": "after the per-S1 choice, each candidate S2/S3 id is kept only for the S1 where it has the highest score (sort by score desc, unique by candidate, keep first); applied per country, then again across countries",
+ "post_processing": "none (no rules, no ensembling, no France-specific filters)",
+ "chosen_on": "half A of 200k held-out training S1 (random halves, numpy default_rng(0)); reported on half B"
+}

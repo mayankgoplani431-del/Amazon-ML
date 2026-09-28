@@ -1,0 +1,13 @@
+{
+ "alpha_star": 8.0,
+ "best": {
+  "India": {
+   "delta": 0.25,
+   "beta": 1.2
+  },
+  "US": {
+   "delta": 0.75,
+   "beta": 1.2
+  }
+ }
+}

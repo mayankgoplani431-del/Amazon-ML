@@ -1,0 +1,316 @@
+translit: 1347 name words, 16 address components
+train 1 (2206821, 13) 19s
+train 2 (5034616, 13) 47s
+train 3 (5285603, 13) 46s
+test 1 (1732544, 13) 15s
+test 2 (4887273, 13) 42s
+test 3 (5082316, 13) 42s
+[india] vectorized comb 58s
+[india] vectorized addr 54s
+[india] vectorized name_nospace 67s
+[india] vectorized nameaddr 82s
+[india] side pass rev: 19949663 pairs 70s
+[india] side pass rev_na: 11898630 pairs 71s
+[india] side pass k_name_num: 2106928 pairs 1s
+[india] side pass k_name: 1714588 pairs 0s
+[india] side pass k_sorted_num: 2130478 pairs 1s
+[india] side pass k_nosp_num: 2197590 pairs 1s
+[india] chunk 0 pairs=8655124 (86.6/S1) 76s
+[india] chunk 1 pairs=8719009 (87.2/S1) 74s
+[india] chunk 2 pairs=8725177 (87.3/S1) 68s
+[india] chunk 3 pairs=8770538 (87.7/S1) 68s
+[india] chunk 4 pairs=8832112 (88.3/S1) 67s
+[india] chunk 5 pairs=8890535 (88.9/S1) 80s
+[india] chunk 6 pairs=9003923 (90.0/S1) 78s
+[india] chunk 7 pairs=9176978 (91.8/S1) 75s
+[india] chunk 8 pairs=7836161 (94.2/S1) 65s
+[us] vectorized comb 90s
+[us] vectorized addr 43s
+[us] vectorized name_nospace 87s
+[us] vectorized nameaddr 62s
+[us] side pass rev: 30702048 pairs 143s
+[us] side pass rev_na: 18114182 pairs 85s
+[us] side pass k_name_num: 2021525 pairs 1s
+[us] side pass k_name: 2924273 pairs 1s
+[us] side pass k_sorted_num: 2129956 pairs 1s
+[us] side pass k_nosp_num: 2152962 pairs 1s
+[us] chunk 0 pairs=9258843 (92.6/S1) 87s
+[us] chunk 1 pairs=9295499 (93.0/S1) 82s
+[us] chunk 2 pairs=9272607 (92.7/S1) 86s
+[us] chunk 3 pairs=9281153 (92.8/S1) 82s
+[us] chunk 4 pairs=9303098 (93.0/S1) 81s
+[us] chunk 5 pairs=9318092 (93.2/S1) 84s
+[us] chunk 6 pairs=9356609 (93.6/S1) 82s
+[us] chunk 7 pairs=9395531 (94.0/S1) 86s
+[us] chunk 8 pairs=9427460 (94.3/S1) 85s
+[us] chunk 9 pairs=9380947 (93.8/S1) 94s
+[us] chunk 10 pairs=9345540 (93.5/S1) 83s
+[us] chunk 11 pairs=9458722 (94.6/S1) 83s
+[us] chunk 12 pairs=9389953 (93.9/S1) 89s
+[us] chunk 13 pairs=2213374 (93.7/S1) 21s
+stage0 cheap features 302s
+Traceback (most recent call last):
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 109, in <module>
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 20)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 76, in main
+    P.run_stage0('train', q, p, top_n=top_n)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\pipeline.py", line 66, in run_stage0
+    models = [stage0.train(smp.filter(pl.col('fold') != k)) for k in range(NF)]
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\stage0.py", line 53, in train
+    return lgb.train(PARAMS, lgb.Dataset(X, df['label'].to_numpy()), rounds)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\.venv\Lib\site-packages\lightgbm\engine.py", line 296, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "D:\Amazon ML\.venv\Lib\site-packages\lightgbm\basic.py", line 3763, in __init__
+    _LIB.LGBM_BoosterCreate(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        train_set._handle,
+        ^^^^^^^^^^^^^^^^^^
+        _c_str(params_str),
+        ^^^^^^^^^^^^^^^^^^^
+        ctypes.byref(self._handle),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+OSError: exception: access violation writing 0x00000000019AD422
+stage0 cheap features 0s
+Traceback (most recent call last):
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 109, in <module>
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 20)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 76, in main
+    P.run_stage0('train', q, p, top_n=top_n)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\pipeline.py", line 66, in run_stage0
+    models = [stage0.train(smp.filter(pl.col('fold') != k)) for k in range(NF)]
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\stage0.py", line 53, in train
+    return lgb.train(PARAMS, lgb.Dataset(X, df['label'].to_numpy()), rounds)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\.venv\Lib\site-packages\lightgbm\engine.py", line 296, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "D:\Amazon ML\.venv\Lib\site-packages\lightgbm\basic.py", line 3763, in __init__
+    _LIB.LGBM_BoosterCreate(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        train_set._handle,
+        ^^^^^^^^^^^^^^^^^^
+        _c_str(params_str),
+        ^^^^^^^^^^^^^^^^^^^
+        ctypes.byref(self._handle),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+OSError: exception: access violation writing 0x00000000019AD422
+stage0 cheap features 0s
+Traceback (most recent call last):
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 109, in <module>
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 20)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 76, in main
+    P.run_stage0('train', q, p, top_n=top_n)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\pipeline.py", line 66, in run_stage0
+    models = [stage0.train(smp.filter(pl.col('fold') != k)) for k in range(NF)]
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\stage0.py", line 53, in train
+    return lgb.train(PARAMS, lgb.Dataset(X, df['label'].to_numpy()), rounds)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\.venv\Lib\site-packages\lightgbm\engine.py", line 321, in train
+    booster.update(fobj=fobj)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Amazon ML\.venv\Lib\site-packages\lightgbm\basic.py", line 4266, in update
+    _LIB.LGBM_BoosterUpdateOneIter(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._handle,
+        ^^^^^^^^^^^^^
+        ctypes.byref(produced_empty_tree),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+OSError: exception: access violation writing 0x0000000000000000
+stage0 cheap features 0s
+stage0 pruned-set true pairs kept by N: {5: 7006146, 10: 7438648, 15: 7451226, 20: 7455823, 30: 7459309, 50: 7463026, 'union': 7466840, 'union_pairs': 202306985}
+stage0 done 426s
+cleanup: removed c0_train (4.0 GB)
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 192s pairs=44130842
+  features part_0000.parquet rows=1999433 248s
+  features part_0001.parquet rows=1999426 305s
+  features part_0002.parquet rows=1999319 359s
+  features part_0003.parquet rows=1999425 415s
+  features part_0004.parquet rows=1999397 468s
+Traceback (most recent call last):
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 109, in <module>
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 20)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 80, in main
+    P.run_features('train', q, p)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\pipeline.py", line 127, in run_features
+    F = fz.pair_features(c['qi'].to_numpy(), c['pi'].to_numpy())
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\features.py", line 130, in pair_features
+    F['nfull_tsort'] = _rf(g(q, 'name_norm', qi).to_list(), g(p, 'name_norm', pi).to_list(), fuzz.token_sort_ratio)
+                       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\features.py", line 26, in _rf
+    return cpdist(a, b, scorer=scorer, workers=-1, dtype=np.float32, **kw)
+  File "D:\Amazon ML\.venv\Lib\site-packages\rapidfuzz\process_cpp.py", line 110, in cpdist
+    distance_matrix = _cpdist(
+        queries,
+    ...<8 lines>...
+        **kwargs,
+    )
+  File "src/rapidfuzz/process_cpp_impl.pyx", line 2067, in rapidfuzz.process_cpp_impl.cpdist
+  File "src/rapidfuzz/process_cpp_impl.pyx", line 1816, in rapidfuzz.process_cpp_impl.cpdist_cpp
+  File "src/rapidfuzz/process_cpp_impl.pyx", line 1692, in rapidfuzz.process_cpp_impl.preprocess
+MemoryError: bad allocation
+stage0: pruned candidates for train already exist, skipping
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 211s pairs=44130842
+  features part_0005.parquet rows=1999537 274s
+  features part_0006.parquet rows=1999373 332s
+  features part_0007.parquet rows=1999454 385s
+  features part_0008.parquet rows=1663326 432s
+  features part_0009.parquet rows=1999964 476s
+  features part_0010.parquet rows=1999969 532s
+  features part_0011.parquet rows=1999990 577s
+  features part_0012.parquet rows=1999940 621s
+  features part_0013.parquet rows=1999943 665s
+  features part_0014.parquet rows=1999958 710s
+  features part_0015.parquet rows=1999963 749s
+  features part_0016.parquet rows=1999963 794s
+  features part_0017.parquet rows=1999990 833s
+  features part_0018.parquet rows=1999962 880s
+  features part_0019.parquet rows=1999950 929s
+  features part_0020.parquet rows=1999935 969s
+  features part_0021.parquet rows=1999987 1006s
+  features part_0022.parquet rows=472638 1020s
+  stage1 fold 0: 6623526 rows, 243s
+  stage1 fold 1: 6628031 rows, 481s
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E07_stage1       │
+├────────────────────────────────────────┤
+│ Blocking recall                97.61 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.44 % │
+│ Pair recall                    94.71 % │
+│ Macro F0.5                      0.9791 │
+│ Singleton accuracy             98.00 % │
+│ False positives                  40996 │
+│ False negatives                 404434 │
+└────────────────────────────────────────┘
+total 2201s
+[france] vectorized comb 14s
+[france] vectorized addr 10s
+[france] vectorized name_nospace 16s
+[france] vectorized nameaddr 13s
+[france] side pass rev: 7075923 pairs 2s
+[france] side pass rev_na: 4154210 pairs 2s
+[france] side pass k_name_num: 765090 pairs 0s
+[france] side pass k_name: 748869 pairs 0s
+[france] side pass k_sorted_num: 785068 pairs 0s
+[france] side pass k_nosp_num: 787915 pairs 0s
+[france] chunk 0 pairs=9268416 (92.7/S1) 35s
+[france] chunk 1 pairs=9497899 (95.0/S1) 35s
+[france] chunk 2 pairs=5769696 (97.0/S1) 20s
+[india] vectorized comb 63s
+[india] vectorized addr 49s
+[india] vectorized name_nospace 56s
+[india] vectorized nameaddr 66s
+[india] side pass rev: 22770855 pairs 56s
+[india] side pass rev_na: 13553923 pairs 52s
+[india] side pass k_name_num: 1988463 pairs 1s
+[india] side pass k_name: 1714007 pairs 0s
+[india] side pass k_sorted_num: 2011346 pairs 1s
+[india] side pass k_nosp_num: 2069795 pairs 1s
+[india] chunk 0 pairs=9031772 (90.3/S1) 84s
+[india] chunk 1 pairs=9033930 (90.3/S1) 72s
+[india] chunk 2 pairs=9106802 (91.1/S1) 72s
+[india] chunk 3 pairs=9137196 (91.4/S1) 72s
+[india] chunk 4 pairs=9206983 (92.1/S1) 75s
+[india] chunk 5 pairs=9355150 (93.6/S1) 73s
+[india] chunk 6 pairs=9505550 (95.1/S1) 73s
+[india] chunk 7 pairs=9981078 (99.8/S1) 74s
+[india] chunk 8 pairs=1004433 (100.6/S1) 8s
+[us] vectorized comb 41s
+[us] vectorized addr 26s
+[us] vectorized name_nospace 60s
+[us] vectorized nameaddr 40s
+[us] side pass rev: 19041808 pairs 48s
+[us] side pass rev_na: 11226142 pairs 23s
+[us] side pass k_name_num: 1004346 pairs 0s
+[us] side pass k_name: 1713489 pairs 0s
+[us] side pass k_sorted_num: 1058664 pairs 0s
+[us] side pass k_nosp_num: 1070123 pairs 0s
+[us] chunk 0 pairs=9215880 (92.2/S1) 89s
+[us] chunk 1 pairs=9217328 (92.2/S1) 83s
+[us] chunk 2 pairs=9221596 (92.2/S1) 83s
+[us] chunk 3 pairs=9235479 (92.4/S1) 83s
+[us] chunk 4 pairs=9214189 (92.1/S1) 85s
+[us] chunk 5 pairs=9165313 (91.7/S1) 84s
+[us] chunk 6 pairs=5795960 (91.8/S1) 52s
+stage0 cheap features 237s
+stage0 done 748s
+cleanup: removed c0_test (3.2 GB)
+featurizer ready 174s pairs=34644892
+  features part_0000.parquet rows=1999886 207s
+  features part_0001.parquet rows=1999876 234s
+  features part_0002.parquet rows=1188939 249s
+  features part_0003.parquet rows=1999298 277s
+  features part_0004.parquet rows=1999329 305s
+  features part_0005.parquet rows=1999237 334s
+  features part_0006.parquet rows=1999403 362s
+  features part_0007.parquet rows=1999288 390s
+  features part_0008.parquet rows=1999372 420s
+  features part_0009.parquet rows=1999250 449s
+  features part_0010.parquet rows=1999294 483s
+  features part_0011.parquet rows=199619 488s
+  features part_0012.parquet rows=2000000 510s
+  features part_0013.parquet rows=2000000 533s
+  features part_0014.parquet rows=2000000 556s
+  features part_0015.parquet rows=1999991 581s
+  features part_0016.parquet rows=1999995 602s
+  features part_0017.parquet rows=1999995 625s
+  features part_0018.parquet rows=1262120 639s
+rule={'rule': 'expected_f', 'miss': 0.2, 'empty_bias': 1.2, 'exclusive': True} predicted pairs=5733352 S1 with matches=1634268/1732544 2302s
+CHECK PASS: 1732544 S1 rows, 5733352 matched pairs, 98276 empty (singletons) (5.67%), avg candidates 20.0, ids matched to >1 S1: 0
+DIAG E07: ../output_e07/matching_results.tsv
+
+-- prediction profile per country
+shape: (3, 12)
+┌───────────┬────────┬────────────┬────────────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┐
+│ country_n ┆ S1     ┆ empty_rate ┆ matches_per_S1 ┆ k1     ┆ k2     ┆ k3     ┆ k4     ┆ k5     ┆ k6     ┆ k7     ┆ k8+    │
+│ ---       ┆ ---    ┆ ---        ┆ ---            ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    │
+│ str       ┆ u32    ┆ f64        ┆ f64            ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    │
+╞═══════════╪════════╪════════════╪════════════════╪════════╪════════╪════════╪════════╪════════╪════════╪════════╪════════╡
+│ france    ┆ 259452 ┆ 0.0493     ┆ 3.374          ┆ 0.0727 ┆ 0.1806 ┆ 0.2427 ┆ 0.2131 ┆ 0.1376 ┆ 0.0683 ┆ 0.0259 ┆ 0.0098 │
+│ india     ┆ 809986 ┆ 0.0584     ┆ 3.268          ┆ 0.0726 ┆ 0.1918 ┆ 0.2472 ┆ 0.2096 ┆ 0.1299 ┆ 0.0609 ┆ 0.0222 ┆ 0.0075 │
+│ us        ┆ 663106 ┆ 0.0576     ┆ 3.334          ┆ 0.0647 ┆ 0.1839 ┆ 0.2472 ┆ 0.2133 ┆ 0.1354 ┆ 0.0654 ┆ 0.0242 ┆ 0.0083 │
+└───────────┴────────┴────────────┴────────────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┘
+
+-- pair-type profile: predicted pairs (E07)
+shape: (3, 9)
+┌───────────┬─────────┬────────┬─────────┬──────────────────┬───────────┬─────────────────┬──────────────────┬───────────────────────────┐
+│ country_n ┆ pairs   ┆ exact  ┆ name_eq ┆ filler_only_diff ┆ num1_diff ┆ cand_addr_empty ┆ one_word_swapped ┆ only_address_words_shared │
+│ ---       ┆ ---     ┆ ---    ┆ ---     ┆ ---              ┆ ---       ┆ ---             ┆ ---              ┆ ---                       │
+│ str       ┆ u32     ┆ f64    ┆ f64     ┆ f64              ┆ f64       ┆ f64             ┆ f64              ┆ f64                       │
+╞═══════════╪═════════╪════════╪═════════╪══════════════════╪═══════════╪═════════════════╪══════════════════╪═══════════════════════════╡
+│ france    ┆ 875408  ┆ 0.4447 ┆ 0.7125  ┆ 0.2246           ┆ 0.0179    ┆ 0.016           ┆ 0.1209           ┆ 0.0173                    │
+│ india     ┆ 2647033 ┆ 0.1407 ┆ 0.7164  ┆ 0.2631           ┆ 0.2028    ┆ 0.0192          ┆ 0.1195           ┆ 0.0096                    │
+│ us        ┆ 2210911 ┆ 0.219  ┆ 0.5877  ┆ 0.2358           ┆ 0.1106    ┆ 0.0228          ┆ 0.1698           ┆ 0.0007                    │
+└───────────┴─────────┴────────┴─────────┴──────────────────┴───────────┴─────────────────┴──────────────────┴───────────────────────────┘
+
+-- most frequent single-word substitutions (name core)
+  [france] club->fils 963, club->services 575, france->fils 568, ecole->fils 557, amicale->fils 542, club->developpement 504, comite->fils 495, club->france 488, club->associes 447, sportive->fils 387, amis->fils 350, ecole->services 340, primaire->fils 331, club->amicale 331, club->ecole 322, amicale->services 320, ecole->club 300, france->developpement 298, ecole->developpement 296, center->fils 295, france->services 294, parents->fils 289, ecole->associes 287, comite->services 285, ecole->france 283, amicale->developpement 282, club->comite 282, france->associes 281, amicale->club 276, comite->developpement 269, comite->club 268, sante->fils 264, amicale->france 260, club->cb 258, comite->france 249, sportive->services 245, amicale->associes 239, union->fils 234, college->fils 223, fetes->fils 222
+  [india] india->services 3095, india->center 2936, technologies->services 1764, technologies->center 1630, brothers->services 1373, trading->services 1361, services->center 1281, brothers->center 1222, trading->center 1202, solutions->services 1141, solutions->center 1106, traders->services 991, traders->center 892, india->partners 877, industries->services 736, enterprises->services 669, foundation->center 662, foundation->services 654, industries->center 650, consultants->services 645, consultants->center 633, consultancy->services 621, consultancy->center 612, trust->services 610, ventures->services 598, ventures->center 593, enterprises->center 593, trust->center 563, developers->services 557, international->center 521, agro->services 511, institute->services 507, marketing->services 503, international->services 502, sons->services 495, care->services 495, care->center 488, clinic->services 476, clinic->center 474, systems->services 465
+  [us] care->services 868, partners->services 850, associates->services 808, care->center 794, partners->center 756, center->services 754, associates->center 700, health->services 538, care->ce 463, clinic->services 453, health->center 416, clinic->center 408, medicine->services 394, dds->center 356, md->center 343, md->services 335, medicine->center 333, dds->services 326, services->center 273, capital->center 261, specialists->services 260, do->center 260, do->services 259, global->services 258, specialists->center 249, capital->services 246, physicians->services 235, association->services 235, alliance->services 232, trust->services 228, alliance->center 227, industries->services 226, ventures->services 216, industries->center 211, physicians->center 210, global->center 210, associates->partners 206, center->partners 202, associates->associate 199, technologies->services 198
+
+-- most frequent single-word substitutions (address)
+  [france] avenue->aenue 321, avenue->aveue 316, avenue->aveune 299, allee->alee 298, avenue->aveneu 297, avenue->aevnue 291, avenue->avneue 275, avenue->avene 265, jean->jena 212, jean->jan 208, jean->jaen 200, jean->jen 192, allee->alele 159, allee->alle 151, pierre->piere 120, paul->palu 107, 3->1 104, 2->1 94, paul->pual 90, paul->pal 87, 5->1 86, 8->1 83, paul->pul 83, saint->sait 82, impasse->impase 82, saint->siant 78, saint->sint 77, cour->cor 76, saint->sanit 75, 10->1 74, saint->saitn 74, 6->8 74, pierre->pierer 72, henri->heri 72, cour->cuor 71, saint->sant 70, 11->1 70, 2->3 69, route->rote 68, cour->coru 68
+  [india] howrah->house 1123, house->no 828, d->house 753, city->house 732, bangalore->house 530, city->no 488, south->house 486, city->suburban 480, new->house 479, old->house 441, hyderabad->no 423, survey->house 407, mumbai->house 382, central->house 365, house->g 322, floor->flor 312, city->greater 307, hyderabad->house 307, house->c 306, chennai->house 305, khasra->house 296, city->ii 296, 1->3 291, howrah->g 288, city->g 283, house->d 281, 1->2 275, city->d 270, 11->1 268, city->c 265, new->divreportingcircle 251, howrah->c 250, city->a 246, house->plto 246, thane->no 244, road->rod 241, howrah->d 240, house->polt 233, road->raod 232, north->house 227
+  [us] fort->ft 1497, cove->cv 1243, unit->city 732, atlanta->atl 596, unit->b 450, unit->c 447, street->stret 443, unit->a 405, unit->d 399, road->raod 335, road->rod 327, phoenix->maryvale 311, ridge->rdg 301, unit->township 271, point->pt 268, unit->cdp 252, street->strete 249, city->township 245, greece->rochester 237, drive->dirve 236, joliet->incorporated 235, street->steret 234, amherst->buffalo 233, street->srteet 232, street->sreet 229, street->steet 221, drive->driev 219, crossing->xing 214, turnpike->tpke 208, drive->drve 204, drive->dive 200, boston->dorchester 195, drive->drvie 192, drive->drie 191, unit->1 183, city->cdp 182, nashville->antioch 179, irondequoit->rochester 177, parma->cleveland 176, cheektowaga->buffalo 173
+
+(train reference skipped: RuntimeError('set DIAG_TRAIN_REF=1 (diffprof.py prints the train references)'))

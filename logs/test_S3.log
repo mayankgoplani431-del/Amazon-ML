@@ -1,0 +1,3 @@
+stage0: pruned candidates for test already exist, skipping
+featurizer ready 199s pairs=34644688
+rule={'empty_scale': 1.3, 'n_blend': 1.0} predicted pairs=5966353 S1 with matches=1634962/1732544 2279s

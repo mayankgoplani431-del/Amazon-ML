@@ -1,0 +1,45 @@
+stage0 cheap features 341s
+stage0 pruned-set true pairs kept by N: {5: 7003276, 10: 7432022, 15: 7444093, 20: 7448317, 30: 7451614, 50: 7454960, 'union': 7458509, 'union_pairs': 202401816}
+stage0 done 902s
+cleanup: removed c0_train (4.0 GB)
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 198s pairs=44130750
+  features part_0000.parquet rows=1999421 239s
+  features part_0001.parquet rows=1999423 271s
+  features part_0002.parquet rows=1999306 306s
+  features part_0003.parquet rows=1999422 345s
+  features part_0004.parquet rows=1999394 382s
+  features part_0005.parquet rows=1999531 419s
+  features part_0006.parquet rows=1999363 460s
+  features part_0007.parquet rows=1999445 502s
+  features part_0008.parquet rows=1663313 540s
+  features part_0009.parquet rows=1999964 574s
+  features part_0010.parquet rows=1999963 609s
+  features part_0011.parquet rows=1999988 642s
+  features part_0012.parquet rows=1999937 688s
+  features part_0013.parquet rows=1999941 728s
+  features part_0014.parquet rows=1999957 773s
+  features part_0015.parquet rows=1999961 811s
+  features part_0016.parquet rows=1999962 847s
+  features part_0017.parquet rows=1999990 881s
+  features part_0018.parquet rows=1999960 918s
+  features part_0019.parquet rows=1999950 954s
+  features part_0020.parquet rows=1999934 996s
+  features part_0021.parquet rows=1999987 1031s
+  features part_0022.parquet rows=472638 1047s
+  stage1 fold 0: 6623512 rows, 401s
+  stage1 fold 1: 6628017 rows, 768s
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E02_blocking_stag│
+├────────────────────────────────────────┤
+│ Blocking recall                97.51 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.45 % │
+│ Pair recall                    94.61 % │
+│ Macro F0.5                      0.9776 │
+│ Singleton accuracy             97.22 % │
+│ False positives                  39686 │
+│ False negatives                 411965 │
+└────────────────────────────────────────┘
+total 3514s

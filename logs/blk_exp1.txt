@@ -1,0 +1,2 @@
+dev 30000 pool 6186873 true pairs 103343
+name_core K=20 {'analyzer': 'char_wb', 'ngram_range': (3, 3), 'min_df': 2} recall=0.6582 nnz/row=20.0 vocab=19826 fit=94s mm=893s

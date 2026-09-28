@@ -1,0 +1,27 @@
+entity models trained 157 s
+baseline E02 rule: 0.97757
+empty_scale=0.8 n_blend=0.0: 0.97752
+empty_scale=0.8 n_blend=0.5: 0.97758
+empty_scale=0.8 n_blend=0.8: 0.97762
+empty_scale=0.8 n_blend=1.0: 0.97765
+empty_scale=0.9 n_blend=0.0: 0.97758
+empty_scale=0.9 n_blend=0.5: 0.97765
+empty_scale=0.9 n_blend=0.8: 0.97768
+empty_scale=0.9 n_blend=1.0: 0.97771
+empty_scale=1.0 n_blend=0.0: 0.97760
+empty_scale=1.0 n_blend=0.5: 0.97766
+empty_scale=1.0 n_blend=0.8: 0.97770
+empty_scale=1.0 n_blend=1.0: 0.97772
+empty_scale=1.1 n_blend=0.0: 0.97762
+empty_scale=1.1 n_blend=0.5: 0.97769
+empty_scale=1.1 n_blend=0.8: 0.97773
+empty_scale=1.1 n_blend=1.0: 0.97775
+empty_scale=1.2 n_blend=0.0: 0.97764
+empty_scale=1.2 n_blend=0.5: 0.97771
+empty_scale=1.2 n_blend=0.8: 0.97775
+empty_scale=1.2 n_blend=1.0: 0.97777
+empty_scale=1.35 n_blend=0.0: 0.97764
+empty_scale=1.35 n_blend=0.5: 0.97770
+empty_scale=1.35 n_blend=0.8: 0.97773
+empty_scale=1.35 n_blend=1.0: 0.97776
+BEST (0.9777747263976388, (1.2, 1.0)) gain 0.0002 291 s

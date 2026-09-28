@@ -1,0 +1,32 @@
+{
+ "half_B": {
+  "India": {
+   "base_plain": 0.98358,
+   "base_stressed": 0.98306,
+   "comb_plain": 0.98644,
+   "comb_stressed": 0.98602,
+   "delta": 0.0,
+   "beta": 1.5
+  },
+  "US": {
+   "base_plain": 0.98484,
+   "base_stressed": 0.98405,
+   "comb_plain": 0.98678,
+   "comb_stressed": 0.98623,
+   "delta": 0.25,
+   "beta": 1.0
+  }
+ },
+ "gain": {
+  "score": 29149962.0,
+  "stage1_score": 2736173.0,
+  "ranker_score": 27890.0,
+  "cut_rank": 6417.0,
+  "srank": 5419.0,
+  "sgap": 40530.0,
+  "p06": 171015.0,
+  "p07": 127341.0,
+  "has06": 66.0,
+  "has07": 31.0
+ }
+}

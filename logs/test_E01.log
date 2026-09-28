@@ -1,0 +1,24 @@
+stage0 cheap features 240s
+stage0 done 701s
+cleanup: removed c0_test (2.6 GB)
+featurizer ready 191s pairs=34618297
+  features part_0000.parquet rows=1999353 225s
+  features part_0001.parquet rows=1999484 259s
+  features part_0002.parquet rows=1188719 277s
+  features part_0003.parquet rows=1996021 304s
+  features part_0004.parquet rows=1995984 341s
+  features part_0005.parquet rows=1996474 372s
+  features part_0006.parquet rows=1996173 400s
+  features part_0007.parquet rows=1996068 427s
+  features part_0008.parquet rows=1996225 458s
+  features part_0009.parquet rows=1996345 498s
+  features part_0010.parquet rows=1996167 526s
+  features part_0011.parquet rows=199201 530s
+  features part_0012.parquet rows=2000000 553s
+  features part_0013.parquet rows=1999992 577s
+  features part_0014.parquet rows=1999999 604s
+  features part_0015.parquet rows=1999984 628s
+  features part_0016.parquet rows=1999993 650s
+  features part_0017.parquet rows=1999995 674s
+  features part_0018.parquet rows=1262120 689s
+rule={'rule': 'expected_f', 'miss': 0.0, 'empty_bias': 1.2, 'exclusive': True} predicted pairs=5701179 S1 with matches=1624236/1732544 3845s

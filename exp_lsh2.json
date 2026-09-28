@@ -1,0 +1,64 @@
+{
+ "india": {
+  "sampled_s1": 3000,
+  "missed_pairs_in_sample": 3436,
+  "max_df=5000": {
+   "recall@12": 0.0189,
+   "recall@25": 0.0253,
+   "new_per_s1@12": 6.6,
+   "new_per_s1@25": 15.4,
+   "ms_per_s1": 0.11,
+   "kept_3grams": 17427,
+   "dropped_3grams": 4472
+  },
+  "max_df=20000": {
+   "recall@12": 0.0739,
+   "recall@25": 0.1022,
+   "new_per_s1@12": 5.8,
+   "new_per_s1@25": 15.7,
+   "ms_per_s1": 1.31,
+   "kept_3grams": 19596,
+   "dropped_3grams": 2303
+  },
+  "max_df=100000": {
+   "recall@12": 0.2992,
+   "recall@25": 0.3938,
+   "new_per_s1@12": 4.3,
+   "new_per_s1@25": 12.9,
+   "ms_per_s1": 18.7,
+   "kept_3grams": 21302,
+   "dropped_3grams": 597
+  }
+ },
+ "us": {
+  "sampled_s1": 3000,
+  "missed_pairs_in_sample": 3298,
+  "max_df=5000": {
+   "recall@12": 0.0109,
+   "recall@25": 0.0161,
+   "new_per_s1@12": 5.8,
+   "new_per_s1@25": 12.7,
+   "ms_per_s1": 0.09,
+   "kept_3grams": 17836,
+   "dropped_3grams": 5466
+  },
+  "max_df=20000": {
+   "recall@12": 0.0934,
+   "recall@25": 0.1267,
+   "new_per_s1@12": 7.1,
+   "new_per_s1@25": 17.9,
+   "ms_per_s1": 1.11,
+   "kept_3grams": 20721,
+   "dropped_3grams": 2581
+  },
+  "max_df=100000": {
+   "recall@12": 0.4639,
+   "recall@25": 0.5552,
+   "new_per_s1@12": 4.5,
+   "new_per_s1@25": 13.8,
+   "ms_per_s1": 14.39,
+   "kept_3grams": 22678,
+   "dropped_3grams": 624
+  }
+ }
+}

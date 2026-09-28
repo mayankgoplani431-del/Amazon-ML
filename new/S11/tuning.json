@@ -1,0 +1,31 @@
+{
+ "delta": {
+  "India": 0.25,
+  "US": 0.25,
+  "France": 0.25
+ },
+ "beta": {
+  "India": 1.0,
+  "US": 1.0,
+  "France": 1.0
+ },
+ "half_B": {
+  "India_baseline": {
+   "plain": 0.98358,
+   "stressed": 0.98306
+  },
+  "India_tuned": {
+   "plain": 0.98364,
+   "stressed": 0.98318
+  },
+  "US_baseline": {
+   "plain": 0.98484,
+   "stressed": 0.98405
+  },
+  "US_tuned": {
+   "plain": 0.98478,
+   "stressed": 0.98408
+  }
+ },
+ "reproduction_diff": 2294
+}

@@ -1,0 +1,44 @@
+{
+ "R2_core<0.65_same_address": {
+  "India": {
+   "dropped": 22297,
+   "dropped_true_share": 0.9953,
+   "gain_plain": -0.07056,
+   "gain_stressed": -0.07049
+  },
+  "US": {
+   "dropped": 9958,
+   "dropped_true_share": 0.9957,
+   "gain_plain": -0.01535,
+   "gain_stressed": -0.01532
+  }
+ },
+ "R3_numbers_differ_low_core": {
+  "India": {
+   "dropped": 8453,
+   "dropped_true_share": 0.9849,
+   "gain_plain": -0.02514,
+   "gain_stressed": -0.025
+  },
+  "US": {
+   "dropped": 3736,
+   "dropped_true_share": 0.9855,
+   "gain_plain": -0.006,
+   "gain_stressed": -0.00594
+  }
+ },
+ "R5_singleton_guard": {
+  "India": {
+   "dropped": 71,
+   "dropped_true_share": 0.4789,
+   "gain_plain": -0.0,
+   "gain_stressed": -0.0
+  },
+  "US": {
+   "dropped": 102,
+   "dropped_true_share": 0.549,
+   "gain_plain": -0.00034,
+   "gain_stressed": -0.00034
+  }
+ }
+}

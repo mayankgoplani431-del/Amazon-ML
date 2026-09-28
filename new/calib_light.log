@@ -1,0 +1,8 @@
+train votes v02 7266207 [19s]
+train votes v3 7303959 [25s]
+S12R predicted LB gain by alpha: {1.0: 0.00089, 1.9: 0.00113, 3.0: 0.00133, 5.0: 0.00157, 8.0: 0.00177} | actual +0.0026 [201s]
+calibrated alpha* = 8.00 [201s]
+India: alpha* strictness delta=0.25 beta=1.2 removes 931 on B | half-B gain {plain, 1.9, a*}: [0.00127, 0.00156, 0.00234] vs S13 setting [0.00127, 0.00156, 0.00234] [389s]
+US: alpha* strictness delta=0.75 beta=1.2 removes 1323 on B | half-B gain {plain, 1.9, a*}: [0.00095, 0.00138, 0.0025] vs S13 setting [0.00079, 0.00126, 0.00248] [521s]
+S15 pairs 5,773,758 | vs S14 +3,663 -0 [589s]
+S15 written [592s]

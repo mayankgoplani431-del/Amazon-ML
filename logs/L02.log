@@ -1,0 +1,14 @@
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: L02_mono         │
+├────────────────────────────────────────┤
+│ Blocking recall                  nan % │
+│ Avg candidates / S1                nan │
+│ P95 candidates / S1                nan │
+│ Pair precision                 97.77 % │
+│ Pair recall                    90.56 % │
+│ Macro F0.5                      0.9489 │
+│ Singleton accuracy             92.86 % │
+│ False positives                  63110 │
+│ False negatives                 288929 │
+└────────────────────────────────────────┘ 
+739s

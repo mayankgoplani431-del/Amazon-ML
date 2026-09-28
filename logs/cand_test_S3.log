@@ -1,0 +1,43 @@
+[france] vectorized comb 18s
+[france] vectorized addr 16s
+[france] vectorized name_nospace 19s
+[france] vectorized nameaddr 18s
+[france] side pass rev: 7078847 pairs 11s
+[france] side pass rev_na: 4148285 pairs 6s
+[france] side pass k_name_num: 736888 pairs 1s
+[france] side pass k_name: 720016 pairs 2s
+[france] chunk 0 pairs=9269800 (92.7/S1) 71s
+[france] chunk 1 pairs=9489749 (94.9/S1) 92s
+[france] chunk 2 pairs=5758105 (96.9/S1) 48s
+[india] vectorized comb 134s
+[india] vectorized addr 60s
+[india] vectorized name_nospace 71s
+[india] vectorized nameaddr 78s
+[india] side pass rev: 22769759 pairs 135s
+[india] side pass rev_na: 13549640 pairs 132s
+[india] side pass k_name_num: 1942801 pairs 1s
+[india] side pass k_name: 1688854 pairs 1s
+[india] chunk 0 pairs=9028108 (90.3/S1) 158s
+[india] chunk 1 pairs=9028494 (90.3/S1) 135s
+[india] chunk 2 pairs=9097451 (91.0/S1) 134s
+[india] chunk 3 pairs=9136370 (91.4/S1) 135s
+[india] chunk 4 pairs=9203830 (92.0/S1) 135s
+[india] chunk 5 pairs=9349616 (93.5/S1) 136s
+[india] chunk 6 pairs=9501675 (95.0/S1) 136s
+[india] chunk 7 pairs=9980056 (99.8/S1) 136s
+[india] chunk 8 pairs=1003638 (100.5/S1) 14s
+[us] vectorized comb 47s
+[us] vectorized addr 29s
+[us] vectorized name_nospace 70s
+[us] vectorized nameaddr 48s
+[us] side pass rev: 19041396 pairs 123s
+[us] side pass rev_na: 11220463 pairs 59s
+[us] side pass k_name_num: 982273 pairs 0s
+[us] side pass k_name: 1654011 pairs 0s
+[us] chunk 0 pairs=9220524 (92.2/S1) 155s
+[us] chunk 1 pairs=9226153 (92.3/S1) 155s
+[us] chunk 2 pairs=9239689 (92.4/S1) 154s
+[us] chunk 3 pairs=9243768 (92.4/S1) 156s
+[us] chunk 4 pairs=9225381 (92.3/S1) 155s
+[us] chunk 5 pairs=9174295 (91.7/S1) 156s
+[us] chunk 6 pairs=5811723 (92.1/S1) 97s

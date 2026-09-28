@@ -1,0 +1,7145 @@
+{
+  "S1-100001": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100002",
+      "S3-100003"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_Bd",
+      "order_legal_prefix",
+      "spacing_concat"
+    ]
+  },
+  "S1-100004": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100005": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100006",
+      "S3-100007"
+    ],
+    "perturbations": [
+      "addr_abbr_Bd",
+      "domain_suffix",
+      "order_reversed",
+      "spacing_concat",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100008": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100009"
+    ],
+    "perturbations": [
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S3-100010": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100008",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100011": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100012",
+      "S3-100013"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "addr_abbr_Bd",
+      "domain_suffix",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100014": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100015",
+      "S3-100016"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "legal_bracket",
+      "spacing_double"
+    ]
+  },
+  "S1-100017": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100018",
+      "S3-100019"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "punct_team_tag",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S3-100020": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100017",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100021": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100022",
+      "S3-100023"
+    ],
+    "perturbations": [
+      "legal_identity",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S2-100024": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100021",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100025": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100026",
+      "S3-100027"
+    ],
+    "perturbations": [
+      "addr_abbr_R.",
+      "domain_suffix",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100028": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100029"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "house_syntax_bis",
+      "legal_identity"
+    ]
+  },
+  "S1-100030": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100031": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100032",
+      "S3-100033"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_Av.",
+      "legal_bracket",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100034": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100035",
+      "S3-100036"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "addr_abbr_Av.",
+      "punct_hyphenation",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100037": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100038",
+      "S3-100039"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_syntax_letter",
+      "transliteration"
+    ]
+  },
+  "S2-100040": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100037",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100041": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100042",
+      "S3-100043"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "domain_www",
+      "house_syntax_letter",
+      "punct_team_tag",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100044": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100045",
+      "S3-100046"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_R.",
+      "domain_suffix",
+      "house_syntax_no",
+      "transliteration"
+    ]
+  },
+  "S1-100047": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100048",
+      "S3-100049"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_R.",
+      "legal_expand",
+      "spacing_double"
+    ]
+  },
+  "S1-100050": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100051"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "ocr_fallback",
+      "spacing_concat"
+    ]
+  },
+  "S1-100052": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100053",
+      "S3-100054"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "house_syntax_bis",
+      "legal_identity",
+      "spacing_concat"
+    ]
+  },
+  "S1-100055": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100056",
+      "S3-100057"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_www",
+      "spacing_digit_tight",
+      "spacing_double"
+    ]
+  },
+  "S1-100058": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100059",
+      "S3-100060"
+    ],
+    "perturbations": [
+      "domain_email",
+      "ocr_fallback",
+      "ocr_l_to_1",
+      "order_reversed",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100061": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100062",
+      "S3-100063"
+    ],
+    "perturbations": [
+      "legal_expand",
+      "order_legal_prefix",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100064": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100065",
+      "S3-100066"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "legal_expand"
+    ]
+  },
+  "S2-100067": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100064",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-100068": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100069",
+      "S3-100070"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "order_legal_prefix",
+      "order_reversed",
+      "punct_hyphenation",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100071": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100072",
+      "S3-100073"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S2-100074": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100071",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100075": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100076",
+      "S3-100077"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "order_legal_prefix",
+      "punct_team_tag",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100078": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100079",
+      "S3-100080"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "legal_strip",
+      "order_legal_prefix",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S3-100081": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100078",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100082": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100083",
+      "S3-100084"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "ocr_fallback",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100085": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100086",
+      "S3-100087"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-100088": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100089",
+      "S3-100090"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "ocr_d_to_cl",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S1-100091": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100092",
+      "S3-100093"
+    ],
+    "perturbations": [
+      "domain_www",
+      "legal_identity",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100094": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100095",
+      "S3-100096"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "legal_strip",
+      "order_legal_prefix",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100097": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100098",
+      "S3-100099"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "legal_identity",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100100": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100101",
+      "S3-100102"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_bracket",
+      "ocr_fallback",
+      "spacing_concat",
+      "spacing_double"
+    ]
+  },
+  "S3-100103": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100100",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100104": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100105",
+      "S3-100106"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S3-100107": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100104",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100108": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100109",
+      "S3-100110"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "house_syntax_no",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100111": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100112",
+      "S3-100113"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_append",
+      "domain_email",
+      "house_syntax_no",
+      "order_reversed",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100114": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100115"
+    ],
+    "perturbations": [
+      "legal_identity",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100116": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100117",
+      "S3-100118"
+    ],
+    "perturbations": [
+      "domain_email",
+      "domain_suffix",
+      "ocr_fallback",
+      "ocr_l_to_1"
+    ]
+  },
+  "S2-100119": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100116",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100120": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100121"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_expand",
+      "spacing_double"
+    ]
+  },
+  "S3-100122": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100120",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100123": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100124",
+      "S3-100125"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "house_syntax_bis",
+      "house_syntax_no",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100126": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100127"
+    ],
+    "perturbations": [
+      "domain_email",
+      "order_reversed",
+      "spacing_concat"
+    ]
+  },
+  "S1-100128": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100129"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_append",
+      "punct_quotes"
+    ]
+  },
+  "S1-100130": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100131",
+      "S3-100132"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "legal_strip",
+      "ocr_fallback",
+      "ocr_l_to_1",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100133": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100134": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100135",
+      "S3-100136"
+    ],
+    "perturbations": [
+      "addr_abbr_Bd",
+      "house_syntax_letter",
+      "legal_strip",
+      "order_legal_prefix",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100137": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100138",
+      "S3-100139"
+    ],
+    "perturbations": [
+      "legal_strip",
+      "ocr_fallback",
+      "ocr_m_to_rn",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S2-100140": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100137",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100141": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100142": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100143"
+    ],
+    "perturbations": [
+      "ocr_l_to_1",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100144": {
+    "language": "French",
+    "country": "France",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-100145": {
+    "language": "French",
+    "country": "France",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100144",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-100146": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100147",
+      "S3-100148"
+    ],
+    "perturbations": [
+      "legal_identity",
+      "punct_angle_brackets",
+      "spacing_concat",
+      "spacing_double"
+    ]
+  },
+  "S1-100149": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100150"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100151": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100152",
+      "S3-100153"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100154": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100155",
+      "S3-100156"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100157": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100158",
+      "S3-100159"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_www",
+      "house_syntax_letter",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100160": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100161",
+      "S3-100162"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "legal_bracket",
+      "order_legal_prefix",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100163": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100164",
+      "S3-100165"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "legal_expand",
+      "spacing_concat",
+      "spacing_double"
+    ]
+  },
+  "S1-100166": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100167",
+      "S3-100168"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100169": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100170",
+      "S3-100171"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S3-100172": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100169",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-100173": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100174",
+      "S3-100175"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100176": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100177"
+    ],
+    "perturbations": [
+      "legal_bracket",
+      "order_legal_prefix",
+      "punct_team_tag"
+    ]
+  },
+  "S3-100178": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100176",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-100179": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100180",
+      "S3-100181"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "legal_expand",
+      "legal_strip",
+      "order_legal_prefix",
+      "punct_quotes"
+    ]
+  },
+  "S1-100182": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100183",
+      "S3-100184"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "house_syntax_bis",
+      "house_syntax_no",
+      "legal_identity",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100185": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100186"
+    ],
+    "perturbations": [
+      "domain_email",
+      "house_syntax_letter",
+      "order_reversed"
+    ]
+  },
+  "S1-100187": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100188",
+      "S3-100189"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "punct_team_tag",
+      "spacing_digit_tight",
+      "spacing_double"
+    ]
+  },
+  "S3-100190": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100187",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100191": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100192",
+      "S3-100193"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "domain_www",
+      "legal_bracket",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100194": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100195"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "spacing_digit_tight"
+    ]
+  },
+  "S2-100196": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100194",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100197": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-100198": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100197",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100199": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100200",
+      "S3-100201"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_www",
+      "house_syntax_bis",
+      "legal_identity",
+      "ocr_S_to_5",
+      "order_legal_prefix"
+    ]
+  },
+  "S2-100202": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100199",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100203": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100204",
+      "S3-100205"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_quotes"
+    ]
+  },
+  "S1-100206": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100207",
+      "S3-100208"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "legal_expand",
+      "ocr_fallback",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S1-100209": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100210"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "legal_strip"
+    ]
+  },
+  "S3-100211": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100209",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100212": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100213",
+      "S3-100214"
+    ],
+    "perturbations": [
+      "domain_email",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100215": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100216": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100217",
+      "S3-100218"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100219": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100220",
+      "S3-100221"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_email",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100222": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100223"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100224": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100225"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100226": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100227",
+      "S3-100228"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100229": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100230",
+      "S3-100231"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_strip",
+      "ocr_fallback",
+      "spacing_digit_tight",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100232": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100233",
+      "S3-100234"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "domain_suffix",
+      "legal_identity"
+    ]
+  },
+  "S1-100235": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100236",
+      "S3-100237"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_email",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100238": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S2-100239": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100238",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100240": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100241",
+      "S3-100242"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_suffix",
+      "house_syntax_letter",
+      "legal_bracket",
+      "transliteration"
+    ]
+  },
+  "S1-100243": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100244",
+      "S3-100245"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "ocr_5_to_S",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100246": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100247",
+      "S3-100248"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "domain_www",
+      "legal_identity",
+      "order_reversed",
+      "punct_quotes"
+    ]
+  },
+  "S1-100249": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100250"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100251": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100252"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_www",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100253": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100254",
+      "S3-100255"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100256": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100257",
+      "S3-100258"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "house_syntax_bis",
+      "legal_expand",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100259": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100260",
+      "S3-100261"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "punct_hyphenation",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-100262": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100263",
+      "S3-100264"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "domain_suffix",
+      "order_reversed",
+      "punct_quotes",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-100265": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100266",
+      "S3-100267"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100268": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100269"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-100270": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100271",
+      "S3-100272"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "legal_expand",
+      "punct_quotes"
+    ]
+  },
+  "S3-100273": {
+    "language": "German",
+    "country": "Germany",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100270",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100274": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100275",
+      "S3-100276"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "legal_identity",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-100277": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100278",
+      "S3-100279"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_email",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100280": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100281",
+      "S3-100282"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_append",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100283": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100284",
+      "S3-100285"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "legal_identity",
+      "order_legal_prefix",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100286": {
+    "language": "German",
+    "country": "Germany",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100287": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100288"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "house_syntax_letter"
+    ]
+  },
+  "S1-100289": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100290"
+    ],
+    "perturbations": [
+      "house_no_change",
+      "legal_bracket"
+    ]
+  },
+  "S1-100291": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100292",
+      "S3-100293"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_append",
+      "domain_www",
+      "ocr_fallback"
+    ]
+  },
+  "S3-100294": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100291",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100295": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100296",
+      "S3-100297"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "domain_www",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100298": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100299",
+      "S3-100300"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "ocr_fallback",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S2-100301": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100298",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100302": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100303",
+      "S3-100304"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "house_no_change",
+      "ocr_fallback",
+      "order_reversed",
+      "transliteration"
+    ]
+  },
+  "S2-100305": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100302",
+    "perturbation": "house_no_change"
+  },
+  "S1-100306": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100307",
+      "S3-100308"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "order_reversed",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100309": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100310",
+      "S3-100311"
+    ],
+    "perturbations": [
+      "house_no_change",
+      "order_reversed",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100312": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100313",
+      "S3-100314"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "ocr_fallback",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100315": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100316"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "order_reversed",
+      "transliteration"
+    ]
+  },
+  "S2-100317": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100315",
+    "perturbation": "house_no_change"
+  },
+  "S1-100318": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100319"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_no_change",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100320": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100321"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "domain_www",
+      "order_reversed"
+    ]
+  },
+  "S2-100322": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100320",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100323": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100324": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100325"
+    ],
+    "perturbations": [
+      "house_no_change",
+      "order_reversed"
+    ]
+  },
+  "S1-100326": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100327": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100328"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100329": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100330",
+      "S3-100331"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "legal_bracket",
+      "ocr_fallback",
+      "order_reversed"
+    ]
+  },
+  "S3-100332": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100329",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100333": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100334": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100335"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100336": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100337",
+      "S3-100338"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "transliteration"
+    ]
+  },
+  "S1-100339": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100340",
+      "S3-100341"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_no_change",
+      "punct_angle_brackets",
+      "spacing_concat"
+    ]
+  },
+  "S3-100342": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100339",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100343": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100344",
+      "S3-100345"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_Rd.",
+      "domain_www",
+      "house_no_change",
+      "transliteration"
+    ]
+  },
+  "S1-100346": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100347"
+    ],
+    "perturbations": [
+      "addr_abbr_Rd.",
+      "transliteration"
+    ]
+  },
+  "S3-100348": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100346",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100349": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100350": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100351"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_no_change"
+    ]
+  },
+  "S1-100352": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100353",
+      "S3-100354"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "legal_expand",
+      "punct_quotes",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100355": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100356",
+      "S3-100357"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "house_no_change",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100358": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100359"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "ocr_fallback",
+      "order_reversed"
+    ]
+  },
+  "S1-100360": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100361": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100362"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "ocr_5_to_S"
+    ]
+  },
+  "S1-100363": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100364"
+    ],
+    "perturbations": [
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100365": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100366",
+      "S3-100367"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "order_reversed",
+      "punct_quotes"
+    ]
+  },
+  "S1-100368": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100369",
+      "S3-100370"
+    ],
+    "perturbations": [
+      "order_reversed",
+      "punct_angle_brackets",
+      "punct_hyphenation",
+      "spacing_concat",
+      "spacing_double"
+    ]
+  },
+  "S1-100371": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100372",
+      "S3-100373"
+    ],
+    "perturbations": [
+      "house_no_change",
+      "punct_quotes",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100374": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100375": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100376",
+      "S3-100377"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "house_no_change",
+      "order_reversed"
+    ]
+  },
+  "S1-100378": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100379",
+      "S3-100380"
+    ],
+    "perturbations": [
+      "domain_email",
+      "house_no_change",
+      "ocr_fallback",
+      "order_reversed",
+      "punct_hyphenation",
+      "spacing_concat"
+    ]
+  },
+  "S1-100381": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100382",
+      "S3-100383"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_email",
+      "order_reversed"
+    ]
+  },
+  "S2-100384": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100381",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100385": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100386",
+      "S3-100387"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "legal_identity",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100388": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100389",
+      "S3-100390"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "house_no_change",
+      "legal_strip",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100391": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100392"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "domain_suffix",
+      "legal_identity"
+    ]
+  },
+  "S1-100393": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100394",
+      "S3-100395"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "ocr_fallback",
+      "order_reversed",
+      "spacing_concat"
+    ]
+  },
+  "S1-100396": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100397",
+      "S3-100398"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "ocr_fallback",
+      "order_reversed",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100399": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100400"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-100401": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100402",
+      "S3-100403"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_identity",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100404": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100405"
+    ],
+    "perturbations": [
+      "house_no_change",
+      "transliteration"
+    ]
+  },
+  "S3-100406": {
+    "language": "Chinese",
+    "country": "China",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100404",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100407": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100408",
+      "S3-100409"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "house_no_change",
+      "punct_quotes"
+    ]
+  },
+  "S1-100410": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100411",
+      "S3-100412"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "order_legal_prefix",
+      "order_reversed",
+      "transliteration"
+    ]
+  },
+  "S1-100413": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100414"
+    ],
+    "perturbations": [
+      "legal_expand",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100415": {
+    "language": "Chinese",
+    "country": "China",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100416",
+      "S3-100417"
+    ],
+    "perturbations": [
+      "addr_abbr_Rd.",
+      "domain_suffix",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100418": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100419",
+      "S3-100420"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100421": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100422",
+      "S3-100423"
+    ],
+    "perturbations": [
+      "domain_www",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100424": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100425",
+      "S3-100426"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "ocr_fallback",
+      "punct_angle_brackets"
+    ]
+  },
+  "S3-100427": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100424",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100428": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100429",
+      "S3-100430"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_email",
+      "house_syntax_bis",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S1-100431": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100432"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "legal_strip",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100433": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100434"
+    ],
+    "perturbations": [
+      "domain_email",
+      "order_reversed",
+      "spacing_double"
+    ]
+  },
+  "S1-100435": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100436"
+    ],
+    "perturbations": [
+      "domain_email",
+      "punct_quotes"
+    ]
+  },
+  "S1-100437": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100438",
+      "S3-100439"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100440": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100441",
+      "S3-100442"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "domain_www",
+      "punct_angle_brackets",
+      "spacing_concat"
+    ]
+  },
+  "S3-100443": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100440",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100444": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100445",
+      "S3-100446"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "punct_quotes",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100447": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100448"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append"
+    ]
+  },
+  "S2-100449": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100447",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100450": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100451"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "order_legal_prefix",
+      "spacing_double"
+    ]
+  },
+  "S2-100452": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100450",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100453": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100454",
+      "S3-100455"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_no_change",
+      "legal_expand",
+      "punct_team_tag"
+    ]
+  },
+  "S2-100456": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100453",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100457": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100458",
+      "S3-100459"
+    ],
+    "perturbations": [
+      "domain_email",
+      "domain_www",
+      "house_no_change",
+      "legal_bracket",
+      "ocr_fallback",
+      "spacing_double"
+    ]
+  },
+  "S1-100460": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100461"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_no_change",
+      "spacing_digit_tight"
+    ]
+  },
+  "S3-100462": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100460",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100463": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100464",
+      "S3-100465"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S2-100466": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100463",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100467": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100468"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100469": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100470",
+      "S3-100471"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "house_syntax_no",
+      "transliteration"
+    ]
+  },
+  "S1-100472": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100473"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100474": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100475",
+      "S3-100476"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "legal_expand",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100477": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100478",
+      "S3-100479"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_identity",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100480": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100481",
+      "S3-100482"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_append",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S2-100483": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100480",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100484": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-100485": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100484",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100486": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100487",
+      "S3-100488"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "house_syntax_no",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100489": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100490",
+      "S3-100491"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "domain_www",
+      "house_syntax_no",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100492": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100493"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_identity"
+    ]
+  },
+  "S1-100494": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100495",
+      "S3-100496"
+    ],
+    "perturbations": [
+      "legal_expand",
+      "ocr_fallback",
+      "punct_angle_brackets",
+      "punct_team_tag",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100497": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100498",
+      "S3-100499"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_bracket",
+      "punct_hyphenation",
+      "punct_quotes",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-100500": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100501",
+      "S3-100502"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100503": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100504",
+      "S3-100505"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "house_syntax_letter",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100506": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100507",
+      "S3-100508"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "house_no_change",
+      "legal_expand",
+      "order_reversed",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100509": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100510",
+      "S3-100511"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "legal_strip",
+      "punct_team_tag",
+      "spacing_concat",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100512": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100513",
+      "S3-100514"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "house_no_change",
+      "legal_identity",
+      "spacing_double"
+    ]
+  },
+  "S1-100515": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100516": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100517",
+      "S3-100518"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_identity",
+      "ocr_fallback",
+      "punct_quotes"
+    ]
+  },
+  "S1-100519": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100520": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100521"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100522": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100523",
+      "S3-100524"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "legal_bracket",
+      "order_legal_prefix",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100525": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100526",
+      "S3-100527"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "house_syntax_letter",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100528": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100529": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100530",
+      "S3-100531"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "legal_bracket",
+      "legal_identity",
+      "order_legal_prefix",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100532": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100533",
+      "S3-100534"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_www",
+      "order_legal_prefix",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100535": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100536",
+      "S3-100537"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "domain_suffix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100538": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100539": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100540": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100541",
+      "S3-100542"
+    ],
+    "perturbations": [
+      "domain_email",
+      "punct_quotes",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100543": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-100544": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100543",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100545": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100546",
+      "S3-100547"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "house_syntax_no",
+      "legal_bracket",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100548": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100549",
+      "S3-100550"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_www",
+      "ocr_fallback",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100551": {
+    "language": "Japanese",
+    "country": "Japan",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100552",
+      "S3-100553"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "legal_bracket",
+      "ocr_fallback",
+      "punct_quotes",
+      "spacing_concat"
+    ]
+  },
+  "S1-100554": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100555",
+      "S3-100556"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_angle_brackets",
+      "spacing_concat",
+      "spacing_double"
+    ]
+  },
+  "S1-100557": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100558",
+      "S3-100559"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "house_syntax_no",
+      "legal_identity",
+      "spacing_concat"
+    ]
+  },
+  "S1-100560": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100561"
+    ],
+    "perturbations": [
+      "legal_bracket",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100562": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100563",
+      "S3-100564"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S3-100565": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100562",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100566": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100567": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100568",
+      "S3-100569"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "ocr_fallback",
+      "ocr_l_to_1",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100570": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100571",
+      "S3-100572"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_quotes"
+    ]
+  },
+  "S1-100573": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100574"
+    ],
+    "perturbations": [
+      "order_legal_prefix",
+      "spacing_double"
+    ]
+  },
+  "S1-100575": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100576",
+      "S3-100577"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "spacing_digit_tight",
+      "spacing_double"
+    ]
+  },
+  "S1-100578": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100579",
+      "S3-100580"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_identity",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100581": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100582",
+      "S3-100583"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100584": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100585",
+      "S3-100586"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_www",
+      "legal_expand",
+      "punct_quotes",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100587": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100588"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100589": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100590",
+      "S3-100591"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "domain_suffix",
+      "house_syntax_bis",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100592": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100593",
+      "S3-100594"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "house_syntax_no",
+      "legal_strip",
+      "punct_quotes"
+    ]
+  },
+  "S1-100595": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100596",
+      "S3-100597"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_email",
+      "legal_bracket",
+      "legal_identity"
+    ]
+  },
+  "S1-100598": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100599"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_append",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100600": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100601"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100602": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100603",
+      "S3-100604"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100605": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100606",
+      "S3-100607"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_www",
+      "legal_identity"
+    ]
+  },
+  "S1-100608": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100609",
+      "S3-100610"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "legal_bracket",
+      "order_legal_prefix",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-100611": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100612",
+      "S3-100613"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_hyphenation",
+      "punct_quotes"
+    ]
+  },
+  "S1-100614": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100615",
+      "S3-100616"
+    ],
+    "perturbations": [
+      "domain_email",
+      "house_syntax_no",
+      "ocr_fallback",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100617": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100618",
+      "S3-100619"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_quotes",
+      "spacing_concat"
+    ]
+  },
+  "S3-100620": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100617",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100621": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100622",
+      "S3-100623"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_syntax_bis",
+      "legal_expand",
+      "punct_quotes"
+    ]
+  },
+  "S1-100624": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100625"
+    ],
+    "perturbations": [
+      "legal_strip",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100626": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100627",
+      "S3-100628"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "house_syntax_no",
+      "order_reversed",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100629": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100630": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100631",
+      "S3-100632"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_www",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S3-100633": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100630",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100634": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100635",
+      "S3-100636"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100637": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100638",
+      "S3-100639"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100640": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100641",
+      "S3-100642"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "legal_strip",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100643": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100644"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_suffix",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100645": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100646"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_www",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100647": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100648",
+      "S3-100649"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_expand",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100650": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100651": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100652",
+      "S3-100653"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100654": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100655",
+      "S3-100656"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_identity",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S2-100657": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100654",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100658": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100659"
+    ],
+    "perturbations": [
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100660": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100661",
+      "S3-100662"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_www",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S2-100663": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100660",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100664": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100665",
+      "S3-100666"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100667": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100668",
+      "S3-100669"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_syntax_no",
+      "ocr_fallback",
+      "punct_quotes"
+    ]
+  },
+  "S1-100670": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100671"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_syntax_bis"
+    ]
+  },
+  "S1-100672": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100673",
+      "S3-100674"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_email",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S2-100675": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100672",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100676": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100677",
+      "S3-100678"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_append",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_double"
+    ]
+  },
+  "S1-100679": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100680",
+      "S3-100681"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_syntax_letter",
+      "punct_quotes",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100682": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100683",
+      "S3-100684"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "domain_www",
+      "house_syntax_no",
+      "ocr_fallback",
+      "punct_quotes"
+    ]
+  },
+  "S2-100685": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100682",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100686": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100687": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100688"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "house_syntax_bis"
+    ]
+  },
+  "S1-100689": {
+    "language": "Korean",
+    "country": "South Korea",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100690",
+      "S3-100691"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_suffix",
+      "order_legal_prefix",
+      "spacing_double"
+    ]
+  },
+  "S1-100692": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100693",
+      "S3-100694"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "addr_abbr_C/",
+      "house_syntax_bis",
+      "ocr_fallback",
+      "punct_team_tag",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100695": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100696",
+      "S3-100697"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_C/",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100698": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100699",
+      "S3-100700"
+    ],
+    "perturbations": [
+      "domain_email",
+      "ocr_fallback",
+      "punct_team_tag",
+      "spacing_concat",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100701": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100702",
+      "S3-100703"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "domain_email",
+      "house_syntax_letter",
+      "legal_expand",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100704": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100705",
+      "S3-100706"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_C/",
+      "house_syntax_letter",
+      "ocr_d_to_cl",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100707": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100708"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_expand",
+      "transliteration"
+    ]
+  },
+  "S1-100709": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100710",
+      "S3-100711"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "order_reversed",
+      "punct_angle_brackets",
+      "punct_hyphenation",
+      "spacing_concat"
+    ]
+  },
+  "S3-100712": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100709",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100713": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100714": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100715",
+      "S3-100716"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_syntax_no",
+      "legal_identity",
+      "ocr_d_to_cl",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100717": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100718",
+      "S3-100719"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "house_syntax_letter",
+      "legal_expand",
+      "transliteration"
+    ]
+  },
+  "S1-100720": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100721"
+    ],
+    "perturbations": [
+      "order_legal_prefix",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S1-100722": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100723",
+      "S3-100724"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "domain_email",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-100725": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100726",
+      "S3-100727"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "house_syntax_letter",
+      "house_syntax_no",
+      "ocr_l_to_1",
+      "spacing_concat"
+    ]
+  },
+  "S1-100728": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100729"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100730": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100731"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100732": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100733",
+      "S3-100734"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "house_syntax_letter",
+      "legal_strip",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100735": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100736",
+      "S3-100737"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "legal_identity",
+      "order_legal_prefix",
+      "punct_angle_brackets"
+    ]
+  },
+  "S3-100738": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100735",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100739": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100740",
+      "S3-100741"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "house_syntax_bis",
+      "house_syntax_no",
+      "ocr_S_to_5",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100742": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100743",
+      "S3-100744"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_double"
+    ]
+  },
+  "S1-100745": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100746": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100747",
+      "S3-100748"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_email",
+      "legal_expand",
+      "transliteration"
+    ]
+  },
+  "S1-100749": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100750",
+      "S3-100751"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "legal_strip",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100752": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100753": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100754",
+      "S3-100755"
+    ],
+    "perturbations": [
+      "domain_email",
+      "domain_www",
+      "house_syntax_letter",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100756": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100757"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "spacing_concat"
+    ]
+  },
+  "S2-100758": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100756",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-100759": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100760",
+      "S3-100761"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "legal_bracket",
+      "ocr_fallback",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S1-100762": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100763",
+      "S3-100764"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_identity",
+      "legal_strip"
+    ]
+  },
+  "S3-100765": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100762",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100766": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100767",
+      "S3-100768"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "house_syntax_letter",
+      "order_legal_prefix",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100769": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100770",
+      "S3-100771"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_bracket",
+      "ocr_fallback",
+      "spacing_concat"
+    ]
+  },
+  "S1-100772": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100773",
+      "S3-100774"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "legal_strip",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100775": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100776"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "legal_bracket",
+      "spacing_double"
+    ]
+  },
+  "S1-100777": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-100778": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100777",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-100779": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100780",
+      "S3-100781"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100782": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100783": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100784",
+      "S3-100785"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "ocr_fallback",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100786": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100787",
+      "S3-100788"
+    ],
+    "perturbations": [
+      "order_legal_prefix",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-100789": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100790",
+      "S3-100791"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_bracket",
+      "legal_strip",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100792": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100793"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "house_syntax_no",
+      "punct_team_tag"
+    ]
+  },
+  "S3-100794": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100792",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100795": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100796",
+      "S3-100797"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "spacing_concat"
+    ]
+  },
+  "S2-100798": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100795",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100799": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100800": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100801"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_identity",
+      "ocr_l_to_1"
+    ]
+  },
+  "S2-100802": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100800",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100803": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100804"
+    ],
+    "perturbations": [
+      "legal_bracket",
+      "spacing_double"
+    ]
+  },
+  "S1-100805": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100806",
+      "S3-100807"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_Av.",
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100808": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100809",
+      "S3-100810"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "domain_www",
+      "house_syntax_bis",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100811": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100812": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100813"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S3-100814": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100812",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-100815": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100816",
+      "S3-100817"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "ocr_fallback",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-100818": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100819",
+      "S3-100820"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "order_legal_prefix",
+      "punct_quotes",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S2-100821": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100818",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-100822": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100823": {
+    "language": "Spanish",
+    "country": "Spain",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100824"
+    ],
+    "perturbations": [
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-100825": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100826",
+      "S3-100827"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "legal_identity",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S3-100828": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100825",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100829": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100830"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100831": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100832",
+      "S3-100833"
+    ],
+    "perturbations": [
+      "legal_expand",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "spacing_double"
+    ]
+  },
+  "S1-100834": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100835",
+      "S3-100836"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_syntax_letter",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S3-100837": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100834",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-100838": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100839": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100840",
+      "S3-100841"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "legal_strip",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_quotes"
+    ]
+  },
+  "S1-100842": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100843",
+      "S3-100844"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "legal_expand",
+      "order_legal_prefix",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S3-100845": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100842",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-100846": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100847",
+      "S3-100848"
+    ],
+    "perturbations": [
+      "domain_email",
+      "ocr_fallback",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S3-100849": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100846",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-100850": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100851",
+      "S3-100852"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_Av.",
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "spacing_concat"
+    ]
+  },
+  "S1-100853": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100854",
+      "S3-100855"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "legal_strip",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S2-100856": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100853",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100857": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100858",
+      "S3-100859"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "addr_abbr_Av.",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100860": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100861",
+      "S3-100862"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_syntax_no",
+      "legal_identity",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S2-100863": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100860",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100864": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100865",
+      "S3-100866"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_syntax_letter",
+      "legal_strip",
+      "spacing_concat",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100867": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100868",
+      "S3-100869"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "domain_suffix",
+      "legal_expand",
+      "punct_quotes"
+    ]
+  },
+  "S1-100870": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100871",
+      "S3-100872"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100873": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100874"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "legal_expand",
+      "ocr_fallback"
+    ]
+  },
+  "S2-100875": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100873",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-100876": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100877",
+      "S3-100878"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "legal_strip",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100879": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100880",
+      "S3-100881"
+    ],
+    "perturbations": [
+      "legal_bracket",
+      "legal_identity",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-100882": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100883"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_suffix",
+      "spacing_double"
+    ]
+  },
+  "S1-100884": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100885"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "house_syntax_letter",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100886": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100887",
+      "S3-100888"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_expand",
+      "legal_identity",
+      "punct_hyphenation",
+      "punct_team_tag"
+    ]
+  },
+  "S1-100889": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100890"
+    ],
+    "perturbations": [
+      "legal_expand",
+      "spacing_double"
+    ]
+  },
+  "S1-100891": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100892",
+      "S3-100893"
+    ],
+    "perturbations": [
+      "domain_email",
+      "ocr_m_to_rn",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100894": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100895"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "transliteration"
+    ]
+  },
+  "S2-100896": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100894",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100897": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100898"
+    ],
+    "perturbations": [
+      "legal_identity",
+      "punct_team_tag",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100899": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100900",
+      "S3-100901"
+    ],
+    "perturbations": [
+      "domain_email",
+      "house_syntax_no",
+      "legal_bracket",
+      "legal_identity"
+    ]
+  },
+  "S1-100902": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100903",
+      "S3-100904"
+    ],
+    "perturbations": [
+      "domain_email",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_reversed",
+      "transliteration"
+    ]
+  },
+  "S1-100905": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100906",
+      "S3-100907"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_Av.",
+      "domain_www",
+      "legal_bracket",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100908": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100909",
+      "S3-100910"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_team_tag",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100911": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100912",
+      "S3-100913"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100914": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100915",
+      "S3-100916"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "order_legal_prefix",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S3-100917": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100914",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-100918": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100919",
+      "S3-100920"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-100921": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100922",
+      "S3-100923"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_Av.",
+      "domain_email",
+      "legal_identity",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100924": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100925"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100926": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100927",
+      "S3-100928"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-100929": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100930"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "punct_angle_brackets"
+    ]
+  },
+  "S3-100931": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100929",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100932": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100933",
+      "S3-100934"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "legal_expand",
+      "legal_identity",
+      "ocr_fallback",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S2-100935": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-100932",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-100936": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100937"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "ocr_fallback"
+    ]
+  },
+  "S1-100938": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-100939": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100938",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100940": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100941",
+      "S3-100942"
+    ],
+    "perturbations": [
+      "ocr_d_to_cl",
+      "ocr_fallback",
+      "punct_angle_brackets",
+      "punct_hyphenation",
+      "transliteration"
+    ]
+  },
+  "S1-100943": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100944",
+      "S3-100945"
+    ],
+    "perturbations": [
+      "addr_abbr_Av.",
+      "legal_identity",
+      "legal_strip",
+      "transliteration"
+    ]
+  },
+  "S1-100946": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100947"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "legal_expand"
+    ]
+  },
+  "S1-100948": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100949": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100950",
+      "S3-100951"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_Av.",
+      "legal_strip",
+      "order_legal_prefix",
+      "spacing_double"
+    ]
+  },
+  "S1-100952": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100953",
+      "S3-100954"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_suffix",
+      "house_syntax_no",
+      "ocr_fallback",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100955": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100956",
+      "S3-100957"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_strip",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-100958": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100959",
+      "S3-100960"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "house_syntax_no",
+      "legal_expand",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-100961": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100962": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100963",
+      "S3-100964"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "domain_www",
+      "legal_expand",
+      "order_reversed",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100965": {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100966"
+    ],
+    "perturbations": [
+      "legal_identity",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-100967": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100968",
+      "S3-100969"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_Rd.",
+      "domain_email",
+      "ocr_fallback",
+      "order_reversed",
+      "transliteration"
+    ]
+  },
+  "S1-100970": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100971",
+      "S3-100972"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "ocr_fallback",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-100973": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100974"
+    ],
+    "perturbations": [
+      "legal_identity",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S3-100975": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100973",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100976": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-100977": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100978"
+    ],
+    "perturbations": [
+      "addr_abbr_Rd.",
+      "transliteration"
+    ]
+  },
+  "S1-100979": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100980",
+      "S3-100981"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "legal_identity",
+      "ocr_fallback",
+      "punct_angle_brackets",
+      "spacing_double"
+    ]
+  },
+  "S1-100982": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100983",
+      "S3-100984"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_www",
+      "punct_hyphenation",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-100985": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100986",
+      "S3-100987"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_www",
+      "house_syntax_no"
+    ]
+  },
+  "S1-100988": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100989",
+      "S3-100990"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "accent_umlaut_expand",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-100991": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100992",
+      "S3-100993"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_suffix",
+      "legal_identity",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S3-100994": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-100991",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-100995": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100996",
+      "S3-100997"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "house_syntax_no",
+      "legal_strip",
+      "punct_angle_brackets",
+      "spacing_double"
+    ]
+  },
+  "S1-100998": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-100999",
+      "S3-101000"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "house_syntax_bis",
+      "transliteration"
+    ]
+  },
+  "S1-101001": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101002"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "legal_strip"
+    ]
+  },
+  "S1-101003": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101004",
+      "S3-101005"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "ocr_fallback",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-101006": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101007",
+      "S3-101008"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "punct_hyphenation"
+    ]
+  },
+  "S1-101009": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101010",
+      "S3-101011"
+    ],
+    "perturbations": [
+      "addr_abbr_Rd.",
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "punct_hyphenation",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-101012": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101013",
+      "S3-101014"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "legal_identity",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101015": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101016"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101017": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101018",
+      "S3-101019"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_no",
+      "legal_strip",
+      "spacing_double"
+    ]
+  },
+  "S1-101020": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101021",
+      "S3-101022"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101023": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101024",
+      "S3-101025"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "order_legal_prefix",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-101026": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101027"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "punct_angle_brackets"
+    ]
+  },
+  "S3-101028": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101026",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101029": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101030"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "legal_identity",
+      "transliteration"
+    ]
+  },
+  "S2-101031": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101029",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101032": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101033",
+      "S3-101034"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "punct_angle_brackets",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-101035": {
+    "language": "Arabic",
+    "country": "Saudi Arabia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101036"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-101037": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101038"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "legal_bracket"
+    ]
+  },
+  "S1-101039": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101040",
+      "S3-101041"
+    ],
+    "perturbations": [
+      "legal_strip",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-101042": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101043": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101044",
+      "S3-101045"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_append",
+      "domain_email",
+      "house_syntax_bis",
+      "legal_identity",
+      "order_reversed"
+    ]
+  },
+  "S2-101046": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101043",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-101047": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101048",
+      "S3-101049"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_suffix",
+      "ocr_fallback",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S2-101050": {
+    "language": "Arabic",
+    "country": "Egypt",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101047",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-101051": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101052",
+      "S3-101053"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-101054": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101055",
+      "S3-101056"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "house_syntax_bis",
+      "legal_expand",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101057": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101058"
+    ],
+    "perturbations": [
+      "house_syntax_no",
+      "legal_identity",
+      "ocr_fallback"
+    ]
+  },
+  "S3-101059": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101057",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101060": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101061",
+      "S3-101062"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_no",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S3-101063": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101060",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-101064": {
+    "language": "Arabic",
+    "country": "Qatar",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101065"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "punct_team_tag",
+      "spacing_concat"
+    ]
+  },
+  "S1-101066": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101067"
+    ],
+    "perturbations": [
+      "legal_expand",
+      "punct_quotes"
+    ]
+  },
+  "S1-101068": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S3-101069": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101068",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101070": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101071",
+      "S3-101072"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_www",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-101073": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101074",
+      "S3-101075"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "legal_identity",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-101076": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101077",
+      "S3-101078"
+    ],
+    "perturbations": [
+      "domain_email",
+      "house_syntax_letter",
+      "order_legal_prefix",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S3-101079": {
+    "language": "Arabic",
+    "country": "Oman",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101076",
+    "perturbation": "house_adversarial_off_-1"
+  },
+  "S1-101080": {
+    "language": "Arabic",
+    "country": "Kuwait",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101081",
+      "S3-101082"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "addr_abbr_append",
+      "legal_strip",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101083": {
+    "language": "Arabic",
+    "country": "Kuwait",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101084"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101085": {
+    "language": "Arabic",
+    "country": "Kuwait",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101086",
+      "S3-101087"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_www",
+      "ocr_fallback",
+      "punct_quotes",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-101088": {
+    "language": "Arabic",
+    "country": "Kuwait",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101089",
+      "S3-101090"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "house_syntax_letter",
+      "punct_quotes"
+    ]
+  },
+  "S2-101091": {
+    "language": "Arabic",
+    "country": "Kuwait",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101088",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101092": {
+    "language": "Arabic",
+    "country": "Kuwait",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101093": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101094": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101095",
+      "S3-101096"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "domain_suffix",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101097": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101098",
+      "S3-101099"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-101100": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101101"
+    ],
+    "perturbations": [
+      "house_syntax_letter",
+      "legal_identity",
+      "punct_team_tag"
+    ]
+  },
+  "S2-101102": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101100",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101103": {
+    "language": "Arabic",
+    "country": "UAE",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101104"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "transliteration"
+    ]
+  },
+  "S1-101105": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101106"
+    ],
+    "perturbations": [
+      "domain_www",
+      "house_syntax_no"
+    ]
+  },
+  "S1-101107": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101108",
+      "S3-101109"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "house_syntax_bis",
+      "legal_identity",
+      "punct_angle_brackets",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-101110": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101111"
+    ],
+    "perturbations": [
+      "order_legal_prefix",
+      "punct_quotes"
+    ]
+  },
+  "S1-101112": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101113",
+      "S3-101114"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_www",
+      "order_legal_prefix",
+      "punct_team_tag",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-101115": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101116"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "punct_angle_brackets",
+      "transliteration"
+    ]
+  },
+  "S1-101117": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101118"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-101119": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101120",
+      "S3-101121"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_email",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-101122": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101123": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101124",
+      "S3-101125"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "domain_email",
+      "ocr_fallback",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S3-101126": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101123",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-101127": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101128",
+      "S3-101129"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "legal_expand",
+      "order_legal_prefix",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-101130": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101131"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "spacing_double"
+    ]
+  },
+  "S1-101132": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101133"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101134": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101135"
+    ],
+    "perturbations": [
+      "domain_email",
+      "ocr_fallback",
+      "spacing_concat"
+    ]
+  },
+  "S1-101136": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101137"
+    ],
+    "perturbations": [
+      "house_syntax_bis",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-101138": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101139",
+      "S3-101140"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_suffix",
+      "legal_identity",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-101141": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101142",
+      "S3-101143"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "order_legal_prefix",
+      "punct_quotes",
+      "spacing_double"
+    ]
+  },
+  "S3-101144": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101141",
+    "perturbation": "house_adversarial_off_2"
+  },
+  "S1-101145": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101146",
+      "S3-101147"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "house_syntax_bis",
+      "legal_strip",
+      "punct_quotes",
+      "spacing_double"
+    ]
+  },
+  "S2-101148": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101145",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-101149": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101150",
+      "S3-101151"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "legal_bracket",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "spacing_concat"
+    ]
+  },
+  "S1-101152": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101153",
+      "S3-101154"
+    ],
+    "perturbations": [
+      "domain_email",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_digit_tight",
+      "transliteration"
+    ]
+  },
+  "S1-101155": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101156",
+      "S3-101157"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "addr_abbr_дом ",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101158": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101159",
+      "S3-101160"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "domain_www",
+      "house_syntax_letter",
+      "house_syntax_no",
+      "legal_bracket",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-101161": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101162",
+      "S3-101163"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "house_syntax_bis",
+      "legal_bracket",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-101164": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101165": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101166",
+      "S3-101167"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "order_reversed",
+      "punct_quotes",
+      "spacing_concat",
+      "transliteration"
+    ]
+  },
+  "S1-101168": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101169",
+      "S3-101170"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "order_legal_prefix",
+      "spacing_concat",
+      "spacing_digit_tight"
+    ]
+  },
+  "S1-101171": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101172"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "addr_abbr_дом ",
+      "punct_angle_brackets"
+    ]
+  },
+  "S1-101173": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101174": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101175",
+      "S3-101176"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "domain_www",
+      "house_syntax_bis",
+      "order_legal_prefix",
+      "punct_quotes",
+      "transliteration"
+    ]
+  },
+  "S1-101177": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101178",
+      "S3-101179"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "ocr_fallback",
+      "transliteration"
+    ]
+  },
+  "S1-101180": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101181",
+      "S3-101182"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_umlaut_expand",
+      "domain_email",
+      "house_syntax_bis",
+      "legal_strip",
+      "spacing_concat"
+    ]
+  },
+  "S1-101183": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101184",
+      "S3-101185"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "addr_abbr_дом ",
+      "domain_suffix",
+      "order_legal_prefix",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-101186": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101187"
+    ],
+    "perturbations": [
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S2-101188": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101186",
+    "perturbation": "house_adversarial_off_-2"
+  },
+  "S1-101189": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101190",
+      "S3-101191"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "house_syntax_no",
+      "ocr_fallback",
+      "punct_quotes"
+    ]
+  },
+  "S2-101192": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101189",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101193": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101194",
+      "S3-101195"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "addr_abbr_дом ",
+      "domain_email",
+      "ocr_fallback",
+      "order_reversed"
+    ]
+  },
+  "S1-101196": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101197",
+      "S3-101198"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-101199": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101200",
+      "S3-101201"
+    ],
+    "perturbations": [
+      "accent_umlaut_expand",
+      "domain_email",
+      "house_syntax_letter",
+      "ocr_fallback",
+      "punct_hyphenation",
+      "spacing_double"
+    ]
+  },
+  "S1-101202": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101203",
+      "S3-101204"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "addr_abbr_append",
+      "house_syntax_no",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "transliteration"
+    ]
+  },
+  "S1-101205": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101206",
+      "S3-101207"
+    ],
+    "perturbations": [
+      "addr_abbr_append",
+      "domain_www",
+      "legal_identity",
+      "punct_team_tag",
+      "transliteration"
+    ]
+  },
+  "S1-101208": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101209",
+      "S3-101210"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "domain_suffix",
+      "punct_angle_brackets",
+      "spacing_double"
+    ]
+  },
+  "S1-101211": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101212",
+      "S3-101213"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "accent_strip",
+      "ocr_fallback",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101214": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101215"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "punct_team_tag"
+    ]
+  },
+  "S3-101216": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "sibling_company",
+    "adversarial_target": "S1-101214",
+    "perturbation": "sibling_business_name"
+  },
+  "S1-101217": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101218",
+      "S3-101219"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "domain_email",
+      "domain_suffix",
+      "house_syntax_bis",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101220": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101221",
+      "S3-101222"
+    ],
+    "perturbations": [
+      "domain_suffix",
+      "ocr_fallback",
+      "order_legal_prefix",
+      "spacing_double",
+      "transliteration"
+    ]
+  },
+  "S1-101223": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101224": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101225",
+      "S3-101226"
+    ],
+    "perturbations": [
+      "domain_email",
+      "legal_bracket",
+      "legal_identity",
+      "ocr_5_to_S",
+      "order_legal_prefix"
+    ]
+  },
+  "S1-101227": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": true,
+    "matched_ids": [],
+    "perturbations": []
+  },
+  "S1-101228": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101229",
+      "S3-101230"
+    ],
+    "perturbations": [
+      "accent_nfd",
+      "ocr_fallback",
+      "punct_team_tag",
+      "spacing_double"
+    ]
+  },
+  "S1-101231": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101232",
+      "S3-101233"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "domain_email",
+      "house_syntax_bis",
+      "ocr_fallback",
+      "order_reversed",
+      "spacing_concat"
+    ]
+  },
+  "S1-101234": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101235"
+    ],
+    "perturbations": [
+      "addr_abbr_дом ",
+      "legal_expand"
+    ]
+  },
+  "S3-101236": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_distractor": true,
+    "distractor_type": "house_off_by_one",
+    "adversarial_target": "S1-101234",
+    "perturbation": "house_adversarial_off_1"
+  },
+  "S1-101237": {
+    "language": "Cyrillic",
+    "country": "Russia",
+    "is_singleton": false,
+    "matched_ids": [
+      "S2-101238"
+    ],
+    "perturbations": [
+      "accent_strip",
+      "accent_umlaut_expand",
+      "legal_identity",
+      "spacing_concat"
+    ]
+  }
+}

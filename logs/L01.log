@@ -1,0 +1,14 @@
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: L01_us_to_india  │
+├────────────────────────────────────────┤
+│ Blocking recall                  nan % │
+│ Avg candidates / S1                nan │
+│ P95 candidates / S1                nan │
+│ Pair precision                 98.03 % │
+│ Pair recall                    90.67 % │
+│ Macro F0.5                      0.9512 │
+│ Singleton accuracy             93.80 % │
+│ False positives                  55769 │
+│ False negatives                 285558 │
+└────────────────────────────────────────┘ 
+609s

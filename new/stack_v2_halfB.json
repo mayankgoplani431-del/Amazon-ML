@@ -1,0 +1,38 @@
+{
+ "v1_E06E07": {
+  "India": {
+   "delta": 0.5,
+   "beta": 1.0,
+   "removed_B": 1100,
+   "gainB_plain": 0.00092,
+   "gainB_a19": 0.00123,
+   "gainB_a25": 0.00139
+  },
+  "US": {
+   "delta": 0.25,
+   "beta": 1.2,
+   "removed_B": 1061,
+   "gainB_plain": 0.00084,
+   "gainB_a19": 0.00118,
+   "gainB_a25": 0.00135
+  }
+ },
+ "v2_+E02S3votes": {
+  "India": {
+   "delta": 0.25,
+   "beta": 1.2,
+   "removed_B": 931,
+   "gainB_plain": 0.00127,
+   "gainB_a19": 0.00156,
+   "gainB_a25": 0.00171
+  },
+  "US": {
+   "delta": 1.0,
+   "beta": 1.0,
+   "removed_B": 1523,
+   "gainB_plain": 0.00079,
+   "gainB_a19": 0.00126,
+   "gainB_a25": 0.00149
+  }
+ }
+}

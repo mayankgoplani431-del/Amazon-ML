@@ -1,0 +1,31 @@
+[india] vectorized comb 62s
+[india] vectorized addr 49s
+[india] vectorized name_nospace 61s
+[india] reverse rev 146s
+[india] chunk 0 pairs=7711490 (77.1/S1) 94s
+[india] chunk 1 pairs=7770136 (77.7/S1) 100s
+[india] chunk 2 pairs=7778203 (77.8/S1) 100s
+[india] chunk 3 pairs=7826257 (78.3/S1) 99s
+[india] chunk 4 pairs=7890493 (78.9/S1) 101s
+[india] chunk 5 pairs=7936674 (79.4/S1) 94s
+[india] chunk 6 pairs=8065722 (80.7/S1) 98s
+[india] chunk 7 pairs=8237694 (82.4/S1) 98s
+[india] chunk 8 pairs=7065888 (84.9/S1) 78s
+[us] vectorized comb 77s
+[us] vectorized addr 49s
+[us] vectorized name_nospace 113s
+[us] reverse rev 265s
+[us] chunk 0 pairs=8375622 (83.8/S1) 126s
+[us] chunk 1 pairs=8417797 (84.2/S1) 126s
+[us] chunk 2 pairs=8396042 (84.0/S1) 126s
+[us] chunk 3 pairs=8407761 (84.1/S1) 126s
+[us] chunk 4 pairs=8432695 (84.3/S1) 125s
+[us] chunk 5 pairs=8456595 (84.6/S1) 126s
+[us] chunk 6 pairs=8496033 (85.0/S1) 126s
+[us] chunk 7 pairs=8526758 (85.3/S1) 126s
+[us] chunk 8 pairs=8559229 (85.6/S1) 127s
+[us] chunk 9 pairs=8492967 (84.9/S1) 128s
+[us] chunk 10 pairs=8487902 (84.9/S1) 126s
+[us] chunk 11 pairs=8590738 (85.9/S1) 126s
+[us] chunk 12 pairs=8515345 (85.2/S1) 125s
+[us] chunk 13 pairs=2007583 (84.9/S1) 30s

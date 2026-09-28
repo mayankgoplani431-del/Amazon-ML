@@ -1,0 +1,32 @@
+{
+ "hard_AND_S5": {
+  "plain": 0.97839,
+  "stressed": 0.97782,
+  "precision": 0.99808,
+  "recall": 0.9389,
+  "fp": 13823,
+  "fn": 466708,
+  "pairs": 7185480
+ },
+ "soft_meta": {
+  "plain": 0.98128,
+  "stressed": 0.98037,
+  "precision": 0.99672,
+  "recall": 0.95154,
+  "fp": 23909,
+  "fn": 370181,
+  "pairs": 7292093
+ },
+ "diff": {
+  "added": 106799,
+  "added_true_share": 0.9051,
+  "removed": 186,
+  "removed_true_share": 0.7634
+ },
+ "calibration": {
+  "s4_minus_s5_train_n": 38222,
+  "s4_minus_s5_train_true_share": 0.8613,
+  "soft_added_within_it": 34066,
+  "soft_added_within_it_true_share": 0.8766
+ }
+}

@@ -1,0 +1,25 @@
+oof (3200000, 15) test (13860352, 8) oof cols ['s1', 'cand', 'score', 'label', 'fold', 'stage1_score', 'stage2_score', 'ranker_score', 'cut_rank', 'country', 'held_out', 'heldout_half', 'name_sim', 'addr_sim', 'via'] [0s]
+reproduction: 5,819,166 pairs vs submitted 5,819,086; differing pairs 2,294 [11s]
+India: half-A best stressed F0.5 0.98358 at delta=0.25 beta=1.0 (baseline delta=0,beta=1: 0.98345) [40s]
+US: half-A best stressed F0.5 0.98442 at delta=0.25 beta=1.0 (baseline delta=0,beta=1: 0.98434) [72s]
+HALF B (held out): {
+ "India_baseline": {
+  "plain": 0.98358,
+  "stressed": 0.98306
+ },
+ "India_tuned": {
+  "plain": 0.98364,
+  "stressed": 0.98318
+ },
+ "US_baseline": {
+  "plain": 0.98484,
+  "stressed": 0.98405
+ },
+ "US_tuned": {
+  "plain": 0.98478,
+  "stressed": 0.98408
+ }
+} [78s]
+in-domain test profile (0.05729716813342276, 3.351804911030676); France curve [(np.float64(0.25), 0.05463823751599525, 3.3171877649815764), (np.float64(0.5), 0.055405238733946933, 3.30079937714876), (np.float64(0.75), 0.05610286295731002, 3.2850469450996718), (np.float64(1.0), 0.05687757273021599, 3.269144196228975), (np.float64(1.25), 0.05764071967069053, 3.2529793564898326), (np.float64(1.5), 0.058276675454419315, 3.23716525600111), (np.float64(1.75), 0.05894731973544239, 3.2209271849899017), (np.float64(2.0), 0.0595678584092626, 3.2042959776760247), (np.float64(2.25), 0.060149854308311365, 3.186654949663136), (np.float64(2.5), 0.060781955814563, 3.1680233723386215)]; France delta=0.25 [95s]
+S11 pairs 5,782,974 (0.977: 5,819,086; S9: 5,802,444); vs S9 +971 -20,441 [104s]
+S11 written [107s]

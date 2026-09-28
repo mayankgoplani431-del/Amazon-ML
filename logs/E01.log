@@ -1,0 +1,59 @@
+stage0 cheap features 0s
+stage0 pruned-set true pairs kept by N: {5: 6874394, 10: 7274175, 15: 7281966, 20: 7284911, 30: 7287664, 50: 7290320}
+stage0 done 310s
+union blocking recall 0.9548  pairs/S1 82.7
+featurizer ready 202s pairs=44109307
+  features part_0000.parquet rows=1997082 244s
+  features part_0001.parquet rows=1997335 282s
+  features part_0002.parquet rows=1996963 320s
+  features part_0003.parquet rows=1997067 354s
+  features part_0004.parquet rows=1996996 391s
+  features part_0005.parquet rows=1996993 427s
+  features part_0006.parquet rows=1997240 460s
+  features part_0007.parquet rows=1996965 490s
+  features part_0008.parquet rows=1661258 514s
+  features part_0009.parquet rows=1999905 537s
+  features part_0010.parquet rows=1999908 559s
+  features part_0011.parquet rows=1999936 581s
+  features part_0012.parquet rows=1999851 605s
+  features part_0013.parquet rows=1999880 641s
+  features part_0014.parquet rows=1999883 676s
+  features part_0015.parquet rows=1999900 708s
+  features part_0016.parquet rows=1999936 743s
+  features part_0017.parquet rows=1999961 787s
+  features part_0018.parquet rows=1999893 817s
+  features part_0019.parquet rows=1999872 845s
+  features part_0020.parquet rows=1999900 886s
+  features part_0021.parquet rows=1999945 920s
+  features part_0022.parquet rows=472638 935s
+  stage1 fold 0: 6620176 rows, 254s
+  stage1 fold 1: 6625125 rows, 607s
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E01_baseline_stag│
+├────────────────────────────────────────┤
+│ Blocking recall                95.37 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.48 % │
+│ Pair recall                    92.82 % │
+│ Macro F0.5                      0.9679 │
+│ Singleton accuracy             97.19 % │
+│ False positives                  37063 │
+│ False negatives                 548195 │
+└────────────────────────────────────────┘
+  stage2 fold 0: 6620176 rows, 474s
+  stage2 fold 1: 6625125 rows, 794s
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E01_baseline_stag│
+├────────────────────────────────────────┤
+│ Blocking recall                95.37 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.48 % │
+│ Pair recall                    93.03 % │
+│ Macro F0.5                      0.9684 │
+│ Singleton accuracy             97.45 % │
+│ False positives                  37419 │
+│ False negatives                 532186 │
+└────────────────────────────────────────┘
+total 4232s

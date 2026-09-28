@@ -1,0 +1,5 @@
+dev 30000 pool 6186873 true pairs 103343
+comb-word K=50 max_df=20000 {} recall=0.9402 vocab=1151057 fit=33s mm=15s
+name-word K=50 max_df=20000 {} recall=0.4725 vocab=880168 fit=17s mm=5s
+addr-word K=50 max_df=20000 {} recall=0.8686 vocab=313912 fit=20s mm=8s
+union recall 0.9607714117066468

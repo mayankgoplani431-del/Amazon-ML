@@ -1,0 +1,37 @@
+DIAG e06: ../output_e06/matching_results.tsv
+
+-- prediction profile per country
+shape: (3, 12)
+┌───────────┬────────┬────────────┬────────────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┐
+│ country_n ┆ S1     ┆ empty_rate ┆ matches_per_S1 ┆ k1     ┆ k2     ┆ k3     ┆ k4     ┆ k5     ┆ k6     ┆ k7     ┆ k8+    │
+│ ---       ┆ ---    ┆ ---        ┆ ---            ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    ┆ ---    │
+│ str       ┆ u32    ┆ f64        ┆ f64            ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    ┆ f64    │
+╞═══════════╪════════╪════════════╪════════════════╪════════╪════════╪════════╪════════╪════════╪════════╪════════╪════════╡
+│ france    ┆ 259452 ┆ 0.0488     ┆ 3.384          ┆ 0.0725 ┆ 0.1795 ┆ 0.2422 ┆ 0.2133 ┆ 0.1386 ┆ 0.0687 ┆ 0.0263 ┆ 0.01   │
+│ india     ┆ 809986 ┆ 0.0585     ┆ 3.268          ┆ 0.0726 ┆ 0.1919 ┆ 0.2469 ┆ 0.2097 ┆ 0.1295 ┆ 0.0612 ┆ 0.0223 ┆ 0.0075 │
+│ us        ┆ 663106 ┆ 0.0576     ┆ 3.337          ┆ 0.0646 ┆ 0.1835 ┆ 0.247  ┆ 0.2134 ┆ 0.1355 ┆ 0.0657 ┆ 0.0244 ┆ 0.0083 │
+└───────────┴────────┴────────────┴────────────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┘
+
+-- pair-type profile: predicted pairs (e06)
+shape: (3, 9)
+┌───────────┬─────────┬────────┬─────────┬──────────────────┬───────────┬─────────────────┬──────────────────┬───────────────────────────┐
+│ country_n ┆ pairs   ┆ exact  ┆ name_eq ┆ filler_only_diff ┆ num1_diff ┆ cand_addr_empty ┆ one_word_swapped ┆ only_address_words_shared │
+│ ---       ┆ ---     ┆ ---    ┆ ---     ┆ ---              ┆ ---       ┆ ---             ┆ ---              ┆ ---                       │
+│ str       ┆ u32     ┆ f64    ┆ f64     ┆ f64              ┆ f64       ┆ f64             ┆ f64              ┆ f64                       │
+╞═══════════╪═════════╪════════╪═════════╪══════════════════╪═══════════╪═════════════════╪══════════════════╪═══════════════════════════╡
+│ france    ┆ 877906  ┆ 0.4367 ┆ 0.7108  ┆ 0.2244           ┆ 0.0174    ┆ 0.0174          ┆ 0.1221           ┆ 0.0173                    │
+│ india     ┆ 2646745 ┆ 0.1371 ┆ 0.7128  ┆ 0.2633           ┆ 0.2028    ┆ 0.0193          ┆ 0.1229           ┆ 0.0096                    │
+│ us        ┆ 2212559 ┆ 0.2081 ┆ 0.5878  ┆ 0.2358           ┆ 0.1106    ┆ 0.0234          ┆ 0.1697           ┆ 0.0007                    │
+└───────────┴─────────┴────────┴─────────┴──────────────────┴───────────┴─────────────────┴──────────────────┴───────────────────────────┘
+
+-- most frequent single-word substitutions (name core)
+  [france] club->fils 964, freres->frs 746, club->services 573, france->fils 569, ecole->fils 560, amicale->fils 544, club->developpement 505, comite->fils 491, club->france 486, saint->st 464, club->associes 452, sportive->fils 387, amis->fils 350, ecole->services 339, primaire->fils 333, amicale->services 322, club->ecole 321, club->amicale 321, ecole->club 311, france->developpement 299, ecole->developpement 297, center->fils 295, france->services 294, ecole->associes 290, parents->fils 288, amicale->developpement 287, comite->services 286, ecole->france 285, france->associes 281, amicale->club 277, club->comite 274, comite->developpement 267, comite->club 265, sante->fils 263, amicale->france 262, club->cb 261, sportive->services 251, comite->france 250, amicale->associes 239, union->fils 234
+  [india] jai->jay 3456, lakshmi->laxmi 3183, india->services 3107, india->center 2923, technologies->services 1764, technologies->center 1652, brothers->services 1380, trading->services 1353, services->center 1282, brothers->center 1225, trading->center 1203, solutions->services 1143, solutions->center 1116, laxmi->lakshmi 1031, traders->services 986, traders->center 891, india->partners 878, jay->jai 792, industries->services 728, foundation->center 670, enterprises->services 666, foundation->services 652, industries->center 650, consultants->services 649, consultants->center 640, consultancy->services 620, consultancy->center 618, trust->services 614, enterprises->center 600, ventures->services 592, ventures->center 590, developers->services 557, trust->center 557, international->center 523, agro->services 510, institute->services 508, international->services 501, marketing->services 499, care->services 498, sons->services 495
+  [us] care->services 870, partners->services 850, associates->services 809, care->center 796, partners->center 757, center->services 757, associates->center 701, health->services 536, care->ce 466, clinic->services 453, health->center 417, clinic->center 407, medicine->services 395, dds->center 356, md->center 342, md->services 336, medicine->center 331, dds->services 327, services->center 275, global->services 264, capital->center 262, do->center 261, do->services 260, specialists->services 258, specialists->center 252, capital->services 247, association->services 235, physicians->services 235, trust->services 231, alliance->services 229, alliance->center 227, industries->services 225, ventures->services 216, global->center 211, associates->partners 210, physicians->center 209, industries->center 208, center->partners 202, associates->associate 199, technologies->services 197
+
+-- most frequent single-word substitutions (address)
+  [france] bis->b 5039, quai->q 1822, terrace->t 815, passage->psg 406, avenue->aenue 317, avenue->aveue 306, allee->alee 297, avenue->aveune 294, avenue->aveneu 290, avenue->aevnue 285, avenue->avneue 270, avenue->avene 261, appartement->appt 224, appartement->apartment 223, appartement->app 216, jean->jena 208, jean->jan 206, jean->jaen 200, jean->jen 186, allee->alele 161, allee->alle 152, pierre->piere 118, paul->palu 107, 3->1 104, 2->1 92, paul->pual 90, paul->pal 87, 8->1 82, 5->1 82, impasse->impase 82, paul->pul 81, saint->sait 78, saint->sint 77, saint->siant 76, saint->saitn 75, cour->cor 75, 10->1 73, saint->sanit 73, saint->sant 71, cour->cuor 71
+  [india] plot->door 3161, plot->house 3133, house->door 2382, flat->door 2123, flat->house 2057, shop->door 1345, shop->house 1310, howrah->door 633, howrah->house 606, door->house 500, city->suburban 469, city->door 464, d->door 441, city->no 434, d->house 424, city->house 401, plot->no 358, hyderabad->no 342, floor->flor 307, city->greater 296, city->ii 293, bangalore->door 292, howrah->g 288, 1->3 283, city->g 282, plot->plt 270, city->d 270, plot->plto 267, plot->polt 266, city->c 264, 1->2 260, 11->1 260, new->door 258, survey->house 258, south->house 253, south->door 253, howrah->c 251, bangalore->house 249, new->divreportingcircle 245, city->a 245
+  [us] in->indiana 20637, or->oregon 11635, street->saint 10351, fort->ft 1252, cove->cv 1216, saint->street 1001, unit->city 686, atlanta->atl 588, street->stret 426, unit->c 424, unit->b 409, unit->d 372, unit->a 370, road->raod 328, road->rod 322, phoenix->maryvale 310, ridge->rdg 294, point->pt 264, unit->township 251, street->strete 240, city->township 238, greece->rochester 237, joliet->incorporated 235, amherst->buffalo 233, street->steret 229, drive->dirve 228, street->srteet 222, street->sreet 218, street->steet 215, unit->cdp 210, drive->driev 209, turnpike->tpke 208, crossing->xing 202, drive->drve 200, drive->dive 193, boston->dorchester 191, drive->drie 182, drive->drvie 182, nashville->antioch 179, irondequoit->rochester 177
+
+(train reference skipped: RuntimeError('set DIAG_TRAIN_REF=1 (diffprof.py prints the train references)'))

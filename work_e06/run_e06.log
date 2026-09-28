@@ -1,0 +1,203 @@
+scripts/run_e06.sh: line 13: /d/Amazon: No such file or directory
+translit: 1347 name words, 16 address components
+train 1 (2206821, 13) 19s
+train 2 (5034616, 13) 45s
+train 3 (5285603, 13) 47s
+test 1 (1732544, 13) 16s
+test 2 (4887273, 13) 44s
+test 3 (5082316, 13) 48s
+scripts/run_e06.sh: line 21:   731 Segmentation fault      "$PY" candidates.py train
+[india] vectorized comb 57s
+[india] vectorized addr 44s
+[india] vectorized name_nospace 51s
+[india] vectorized nameaddr 62s
+[india] side pass rev: 19949940 pairs 75s
+[india] side pass rev_na: 11898426 pairs 63s
+[india] side pass k_name_num: 2077720 pairs 1s
+[india] side pass k_name: 1710755 pairs 1s
+[india] side pass k_sorted_num: 2101189 pairs 1s
+[india] side pass k_nosp_num: 2168926 pairs 1s
+[india] chunk 0 pairs=8653008 (86.5/S1) 76s
+[india] chunk 1 pairs=8719529 (87.2/S1) 72s
+[india] chunk 2 pairs=8723199 (87.2/S1) 62s
+[india] chunk 3 pairs=8770054 (87.7/S1) 64s
+[india] chunk 4 pairs=8830322 (88.3/S1) 62s
+[india] chunk 5 pairs=8889310 (88.9/S1) 63s
+[india] chunk 6 pairs=9004250 (90.0/S1) 65s
+[india] chunk 7 pairs=9175207 (91.8/S1) 62s
+[india] chunk 8 pairs=7835840 (94.2/S1) 51s
+[us] vectorized comb 65s
+[us] vectorized addr 40s
+[us] vectorized name_nospace 85s
+[us] vectorized nameaddr 62s
+[us] side pass rev: 30701726 pairs 126s
+[us] side pass rev_na: 18113940 pairs 75s
+[us] side pass k_name_num: 2020217 pairs 1s
+[us] side pass k_name: 2924171 pairs 1s
+[us] side pass k_sorted_num: 2128575 pairs 1s
+[us] side pass k_nosp_num: 2151706 pairs 1s
+[us] chunk 0 pairs=9255828 (92.6/S1) 78s
+[us] chunk 1 pairs=9294938 (92.9/S1) 75s
+[us] chunk 2 pairs=9270092 (92.7/S1) 80s
+[us] chunk 3 pairs=9278771 (92.8/S1) 81s
+[us] chunk 4 pairs=9309189 (93.1/S1) 81s
+[us] chunk 5 pairs=9317983 (93.2/S1) 82s
+[us] chunk 6 pairs=9362538 (93.6/S1) 81s
+[us] chunk 7 pairs=9393513 (93.9/S1) 82s
+[us] chunk 8 pairs=9431008 (94.3/S1) 81s
+[us] chunk 9 pairs=9372750 (93.7/S1) 84s
+[us] chunk 10 pairs=9343207 (93.4/S1) 83s
+[us] chunk 11 pairs=9458576 (94.6/S1) 82s
+[us] chunk 12 pairs=9385996 (93.9/S1) 83s
+[us] chunk 13 pairs=2212171 (93.6/S1) 20s
+stage0 cheap features 314s
+stage0 pruned-set true pairs kept by N: {5: 7012423, 10: 7440911, 15: 7453201, 20: 7457321, 30: 7460131, 50: 7462408, 'union': 7465429, 'union_pairs': 202287279}
+stage0 done 849s
+cleanup: removed c0_train (4.0 GB)
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 192s pairs=44130846
+  features part_0000.parquet rows=1999433 252s
+  features part_0001.parquet rows=1999426 311s
+  features part_0002.parquet rows=1999322 362s
+  features part_0003.parquet rows=1999426 425s
+  features part_0004.parquet rows=1999397 483s
+  features part_0005.parquet rows=1999537 535s
+  features part_0006.parquet rows=1999373 594s
+  features part_0007.parquet rows=1999454 648s
+  features part_0008.parquet rows=1663326 699s
+  features part_0009.parquet rows=1999964 749s
+  features part_0010.parquet rows=1999971 801s
+  features part_0011.parquet rows=1999988 847s
+  features part_0012.parquet rows=1999940 893s
+  features part_0013.parquet rows=1999943 940s
+  features part_0014.parquet rows=1999958 985s
+Traceback (most recent call last):
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 107, in <module>
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 20)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\run_train.py", line 78, in main
+    P.run_features('train', q, p)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\pipeline.py", line 127, in run_features
+    F = fz.pair_features(c['qi'].to_numpy(), c['pi'].to_numpy())
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\features.py", line 130, in pair_features
+    F['nfull_tsort'] = _rf(g(q, 'name_norm', qi).to_list(), g(p, 'name_norm', pi).to_list(), fuzz.token_sort_ratio)
+                       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Amazon ML\amazon-ml-2026-entity-resolution-master\amazon-ml-2026-entity-resolution-master\src\features.py", line 26, in _rf
+    return cpdist(a, b, scorer=scorer, workers=-1, dtype=np.float32, **kw)
+  File "D:\Amazon ML\.venv\Lib\site-packages\rapidfuzz\process_cpp.py", line 110, in cpdist
+    distance_matrix = _cpdist(
+        queries,
+    ...<8 lines>...
+        **kwargs,
+    )
+  File "src/rapidfuzz/process_cpp_impl.pyx", line 2067, in rapidfuzz.process_cpp_impl.cpdist
+  File "src/rapidfuzz/process_cpp_impl.pyx", line 1817, in rapidfuzz.process_cpp_impl.cpdist_cpp
+  File "src/rapidfuzz/process_cpp_impl.pyx", line 1692, in rapidfuzz.process_cpp_impl.preprocess
+MemoryError: bad allocation
+stage0: pruned candidates for train already exist, skipping
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 193s pairs=44130846
+  features part_0015.parquet rows=1999963 245s
+  features part_0016.parquet rows=1999963 297s
+  features part_0017.parquet rows=1999990 339s
+  features part_0018.parquet rows=1999962 384s
+  features part_0019.parquet rows=1999950 437s
+  features part_0020.parquet rows=1999935 492s
+  features part_0021.parquet rows=1999987 538s
+  features part_0022.parquet rows=472638 553s
+  stage1 fold 0: 6623522 rows, 260s
+  stage1 fold 1: 6628032 rows, 511s
+memory allocation of 128292756401600 bytes failed
+stage0: pruned candidates for train already exist, skipping
+true pairs total 7638365 (stage0 line above: union = blocking hits before pruning)
+featurizer ready 199s pairs=44130846
+┌────────────────────────────────────────┐
+│ EXPERIMENT SCORECARD: E06_stage1       │
+├────────────────────────────────────────┤
+│ Blocking recall                97.63 % │
+│ Avg candidates / S1               20.0 │
+│ P95 candidates / S1                 20 │
+│ Pair precision                 99.43 % │
+│ Pair recall                    94.71 % │
+│ Macro F0.5                      0.9790 │
+│ Singleton accuracy             97.97 % │
+│ False positives                  41178 │
+│ False negatives                 403863 │
+└────────────────────────────────────────┘
+scripts/run_e06.sh: line 21:   197 Segmentation fault      NEG_W=1.9 ALPHA=1.9 STAGES=2 "$PY" run_train.py E06 20
+[france] vectorized comb 14s
+[france] vectorized addr 9s
+[france] vectorized name_nospace 16s
+[france] vectorized nameaddr 13s
+[france] side pass rev: 7076312 pairs 3s
+[france] side pass rev_na: 4153877 pairs 2s
+[france] side pass k_name_num: 763927 pairs 0s
+[france] side pass k_name: 747584 pairs 0s
+[france] side pass k_sorted_num: 783837 pairs 0s
+[france] side pass k_nosp_num: 786777 pairs 0s
+[france] chunk 0 pairs=9268281 (92.7/S1) 38s
+[france] chunk 1 pairs=9498795 (95.0/S1) 39s
+[france] chunk 2 pairs=5767651 (97.0/S1) 23s
+[india] vectorized comb 65s
+[india] vectorized addr 50s
+[india] vectorized name_nospace 57s
+[india] vectorized nameaddr 66s
+[india] side pass rev: 22771158 pairs 61s
+[india] side pass rev_na: 13553763 pairs 56s
+[india] side pass k_name_num: 1956783 pairs 1s
+[india] side pass k_name: 1710108 pairs 0s
+[india] side pass k_sorted_num: 1979548 pairs 1s
+[india] side pass k_nosp_num: 2038602 pairs 1s
+[india] chunk 0 pairs=9029562 (90.3/S1) 76s
+[india] chunk 1 pairs=9030736 (90.3/S1) 76s
+[india] chunk 2 pairs=9102188 (91.0/S1) 76s
+[india] chunk 3 pairs=9138298 (91.4/S1) 77s
+[india] chunk 4 pairs=9204350 (92.0/S1) 76s
+[india] chunk 5 pairs=9354432 (93.5/S1) 76s
+[india] chunk 6 pairs=9504864 (95.0/S1) 78s
+[india] chunk 7 pairs=9979536 (99.8/S1) 75s
+[india] chunk 8 pairs=1003775 (100.5/S1) 8s
+[us] vectorized comb 37s
+[us] vectorized addr 25s
+[us] vectorized name_nospace 54s
+[us] vectorized nameaddr 39s
+[us] side pass rev: 19041709 pairs 45s
+[us] side pass rev_na: 11226039 pairs 22s
+[us] side pass k_name_num: 1003657 pairs 0s
+[us] side pass k_name: 1713448 pairs 0s
+[us] side pass k_sorted_num: 1057943 pairs 0s
+[us] side pass k_nosp_num: 1069470 pairs 0s
+[us] chunk 0 pairs=9215082 (92.2/S1) 84s
+[us] chunk 1 pairs=9218913 (92.2/S1) 84s
+[us] chunk 2 pairs=9225346 (92.3/S1) 85s
+[us] chunk 3 pairs=9234721 (92.3/S1) 84s
+[us] chunk 4 pairs=9213616 (92.1/S1) 86s
+[us] chunk 5 pairs=9166936 (91.7/S1) 85s
+[us] chunk 6 pairs=5803002 (92.0/S1) 53s
+stage0 cheap features 240s
+stage0 done 730s
+cleanup: removed c0_test (3.2 GB)
+featurizer ready 176s pairs=34644895
+  features part_0000.parquet rows=1999886 213s
+  features part_0001.parquet rows=1999884 243s
+  features part_0002.parquet rows=1188939 261s
+  features part_0003.parquet rows=1999298 290s
+  features part_0004.parquet rows=1999329 324s
+  features part_0005.parquet rows=1999230 360s
+  features part_0006.parquet rows=1999400 394s
+  features part_0007.parquet rows=1999288 429s
+  features part_0008.parquet rows=1999370 462s
+  features part_0009.parquet rows=1999258 497s
+  features part_0010.parquet rows=1999294 534s
+  features part_0011.parquet rows=199619 541s
+  features part_0012.parquet rows=2000000 564s
+  features part_0013.parquet rows=2000000 588s
+  features part_0014.parquet rows=1999999 609s
+  features part_0015.parquet rows=1999991 635s
+  features part_0016.parquet rows=1999995 659s
+  features part_0017.parquet rows=1999995 682s
+  features part_0018.parquet rows=1262120 696s
+rule={'rule': 'expected_f', 'miss': 0.2, 'empty_bias': 1.2, 'exclusive': True} predicted pairs=5737210 S1 with matches=1634341/1732544 2349s
+CHECK PASS: 1732544 S1 rows, 5737210 matched pairs, 98203 empty (singletons) (5.67%), avg candidates 20.0, ids matched to >1 S1: 0
+scripts/run_e06.sh: line 22:   285 Segmentation fault      "$PY" diag.py ../output_e06/matching_results.tsv e06
